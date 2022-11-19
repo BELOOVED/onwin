@@ -9,13 +9,13 @@ date_default_timezone_set('Europe/Istanbul');
 
 // Database Info
 const DB_HOST = "localhost";
-const DB_LOGIN = "onwin_onwin";
-const DB_PASS = "8VvPZDQ2S9.S";
-const DB_NAME = "onwin_onwin";
+const DB_LOGIN = "u1832_a";
+const DB_PASS = "t6%xDn740";
+const DB_NAME = "u1832972_a";
 const SYSNAME = 'Onwin';
 const ENV = 'prod';
 
-const ADMIN_PATH = 'Sazan';
+const ADMIN_PATH = 'tema';
 const USERID = '2019046834481';
 
 include "providers.php";
