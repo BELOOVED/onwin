@@ -1,0 +1,38 @@
+body {
+  color: #000;
+  background: #fff;
+}
+.case {
+  max-width: 710px;
+  width: 100%;
+  margin: 0 auto;
+}
+.text-small {
+  font-size: 12px;
+}
+.payment-card .card-header {
+  position: relative;
+}
+.payment-card .card-header .spinner-border {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.card {
+  border-color: #222;
+}
+.card-header {
+  background-color: #eee;
+}
+.card-body {
+  background-color: #fff;
+}
+.card-header > a {
+  display: none;
+}
+.card-footer {
+  background-color: #fff;
+}
+.text-secondary {
+  color: #888!important;
+}

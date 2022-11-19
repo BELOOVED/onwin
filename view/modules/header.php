@@ -1,0 +1,452 @@
+<html lang="tr"><head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Onwin | Onwin.com | Canlı Bahis | Canlı Casino | Poker</title>
+<meta name="description" content="Onwin.com | Canlı Bahis | Spor Bahisleri | Casino | Poker. ">
+<meta name="keywords" content="Tipo, Onwin, Onwin, Onwin.com, Canlı Bahis, Spor Bahisleri, Casino, Poker, Bonus">
+<link rel="apple-touch-icon" href="../assets/onwin512-sq.png">
+<meta name="theme-color" content="#A0008C">
+<meta name="msapplication-navbutton-color" content="#A0008C">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta property="og:locale" content="tr-TR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Onwin Bahis ve Casino sitesi">
+<meta property="og:description" content="Onwin bahis ve casino sitesiyle gerçek bahis şimdi başlıyor, bahis siteleri arasında en iyi ilk  hemen almak için tıklayın, Onwin giriş.">
+<meta property="og:url" content="#">
+<meta property="og:site_name" content="Onwin Bahis ve Casino Sitesi | Onwin Giriş |">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Onwin bahis ve casino sitesiyle gerçek bahis şimdi başlıyor,bahis siteleri arasında en iyi ilk hemen almak için tıklayın, Onwin giriş.">
+<meta name="twitter:title" content="Onwin Bahis ve Casino Sitesi | Onwin Giriş |">
+<meta name="twitter:image" content="../assets/onwin512-sq.png">
+
+<link href="assets/core.css" rel="stylesheet" media="screen">
+<link href="../favicon.ico" rel="icon" type="image/png">
+<script src="../assets/jquery.min.js"></script>
+<script src="../assets/app.js"></script>
+<script src="../assets/sweetalert2.all.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+    var isMobile = {
+        Android: function() {
+            return navigator.userAgent.match(/Android/i);
+        },
+        BlackBerry: function() {
+            return navigator.userAgent.match(/BlackBerry/i);
+        },
+        iOS: function() {
+            return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+        },
+        Opera: function() {
+            return navigator.userAgent.match(/Opera Mini/i);
+        },
+        Windows: function() {
+            return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
+        },
+        any: function() {
+            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+        }
+    };  
+    if( !isMobile.any() ) window.location = '../';
+</script>
+<style>
+.ui-loader {
+    display: none !important;
+}
+.opensub {
+    display: none;
+}
+</style>
+<script>
+$(document).ready(function () {
+    $("#tooltip-intro-1").click(function () {
+        $(".sideMenu").slideToggle("fast");
+        /*
+        const div = document.querySelector('.headmain');
+        if (div.classList.contains('extra-params-after-click') === false) {
+            div.classList.remove("extra-params");
+            div.classList.add("extra-params-after-click");
+        } else {
+            div.classList.remove("extra-params-after-click");
+            div.classList.add("extra-params");
+        }*/
+    });
+    $("#menukapat").click(function () {
+        $("#tooltip-intro-1").click();
+    });
+});
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.slick-track').slick({
+      autoplay:true,
+         prevArrow: null,
+         nextArrow: null,
+    });
+  });
+</script> </head>
+<body class="body--with-cursor body--small-desktop">
+<div class="isMobile" id="site">
+<div class="mobileHeader-holder" style="">
+<div class="iPhone-topFix"></div>
+<header canvas="slideBar" class="mobileHeader position-fixed w-100">
+<nav class="d-flex justify-content-between align-items-center row m-0 thh">
+<span class="d-flex align-items-center">
+<span id="tooltip-intro-1" class="h-100 m d-inline-block mobile-main-menu-trigger align-items-center align-middle">
+<svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: block;">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 12H18V10H0V12ZM0 7H18V5H0V7ZM0 0V2H18V0H0Z" fill="white"></path>
+</svg>
+</span>
+<a href="./" class="logo d-inline-block">
+<picture style="display: inline-block;" class="d-block">
+<img src="../assets/svg/logo.svg" class="" width="90" height="19">
+</picture>
+</a>
+</span>
+<div class="top-area float-right text-right"> <div class="login-form d-inline-flex"><a href="register.php" class=" btn-top-h mx-1 first" target="_self">
+Kayıt
+<i class="fi flaticon-add-button"></i></a> <a href="login.php" class=" btn-top-h mx-1 second" target="_self">
+Giriş
+<i class="fi flaticon-login"></i></a> </div></div>
+</nav>
+<style type="text/css">
+  .swiper-container {
+    overflow: scroll !important;
+  }    
+  </style>
+<div class="headertopmenu">
+<div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-free-mode swiper-container-ios">
+<div class="swiper-wrapper">
+<div class="item swiper-slide swiper-slide-active" style="margin-right: 10px;">
+<a href="prelive.php" class="">
+<i class="fi flaticon-soccer-ball-variant"></i>
+<span>Bahis</span> <span class="b-sh"></span>
+</a>
+</div>
+<div class="item swiper-slide swiper-slide-next" style="margin-right: 10px;">
+<a href="live.php" class="">
+<i class="fi flaticon-danger"></i>
+<span>Canlı Bahis</span> <span class="b-sh"></span>
+</a>
+</div>
+<div class="item swiper-slide" style="margin-right: 10px;">
+<a href="live-casino.php" class="">
+<i class="fi flaticon-casino-chip"></i>
+<span>Canlı Casino</span> <span class="b-sh"></span>
+</a>
+</div>
+<div class="item swiper-slide" style="margin-right: 10px;">
+<a href="slot.php" class="">
+<i class="fi flaticon-strawberry"></i>
+<span>Slot</span> <span class="b-sh"></span>
+</a>
+</div>
+<div class="item swiper-slide" style="margin-right: 10px;">
+<a href="virtual-casino.php" class="">
+<i class="fi flaticon-jumping-horse-with-jockey-silhouette"></i>
+<span>Sanal Bahis</span> <span class="b-sh"></span>
+</a>
+</div>
+<div class="item swiper-slide" style="margin-right: 10px;">
+<a href="mixedgames.php" class="">
+<svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" height="24">
+<path d="M16.308 16.395h.006c.028-.113.059-.25.09-.365l.145-.48h-.485l.149.48c.036.119.067.252.095.365zM8.485 3.198h-.006c-.028.113-.059.25-.09.365l-.146.481h.486l-.149-.48a6.854 6.854 0 01-.095-.366z" fill="#422E6B"></path>
+<path d="M1.883 16.27c.082.54.363 1.015.792 1.337a1.927 1.927 0 001.475.367l2.715-.44a1.876 1.876 0 00.645.006l.246-.04c.216.105.454.17.709.17h7.872c.918 0 1.663-.77 1.663-1.717V3.593c0-.947-.745-1.716-1.663-1.716h-1.235l-.023-.147a2.045 2.045 0 00-.791-1.337 1.92 1.92 0 00-1.476-.367l-3.334.54-7.803 1.156c-1.08.175-1.82 1.224-1.65 2.34L1.882 16.27zM8.956 4.867l-.171-.553h-.598l-.163.553h-.356l.606-1.952h.44l.616 1.952h-.374zm6.88 9.86l.172.553h.598l.163-.554h.356l-.607 1.953h-.44l-.615-1.953h.373zm-.496-6.32s.037 2.043-2.496 4.212a.849.849 0 01-1.05-.001c-2.514-2.168-2.33-4.212-2.33-4.212 0-.916.72-1.66 1.607-1.66.554 0 1.042.29 1.33.73.29-.44.778-.73 1.331-.73.888 0 1.608.744 1.608 1.66zM5.134 1.938L12.91.678a1.3 1.3 0 011 .249c.29.218.48.54.536.905l.006.045H8.464c-.918 0-1.663.77-1.663 1.717v12.359c0 .325.092.625.244.884l-.166.026a1.32 1.32 0 01-.468-.225c-.29-.218-.48-.54-.536-.905l-1.86-12.21c-.114-.754.387-1.465 1.119-1.584zm-3.364.435l1.99-.294a2.087 2.087 0 00-.376 1.546l1.859 12.21c.07.464.289.88.621 1.192l-1.813.294a1.306 1.306 0 01-1-.249c-.29-.218-.48-.54-.536-.905L.656 3.958c-.115-.754.387-1.465 1.114-1.584z" fill="#422E6B"></path>
+</svg>
+<span>Oyunlar</span> <span class="b-sh"></span>
+</a>
+</div>
+<div class="item swiper-slide" style="margin-right: 10px;">
+<a href="helio.php" class="">
+<svg viewBox="0 0 6 6" xmlns="http://www.w3.org/2000/svg" height="24">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1.693 4.551c.05.001.148.052.203.072a2.42 2.42 0 001.4.07c.12-.03.407-.142.43-.142l.296.55H1.397l.296-.55zm3.726.693v.026c-.005.076-.055.149-.138.149H.138c-.08 0-.132-.072-.138-.147v-.033c.006-.07.055-.136.158-.138h.869l.391-.72a1.518 1.518 0 01-.272-.203l-.143-.132a2.294 2.294 0 01-.33-.423C.416 3.188.329 2.829.329 2.307c0-.468.182-.945.434-1.301a2.404 2.404 0 011.15-.873A2.28 2.28 0 012.635 0c.47 0 .694.053 1.083.22a2.428 2.428 0 011.055.967c.064.111.14.27.184.396.17.486.184 1.043.021 1.533-.066.2-.139.35-.237.514-.15.25-.48.614-.74.752l.098.187.293.532c.217 0 .682-.01.88 0a.146.146 0 01.147.143zm-1.916-2.44c0-.116.061-.256.14-.336.366-.365.983.052.77.527a.475.475 0 01-.864.007.627.627 0 01-.046-.197zm-2.54 0a.475.475 0 11.813.336.482.482 0 01-.673.001.522.522 0 01-.14-.336zm1.27-.423a.475.475 0 01.907-.198c.133.283-.07.505-.07.505 0 .047.293.545.342.642.052.104.565 1.006.578 1.062-.068.018-.205.132-.275.138l-.692-1.256c-.029-.058-.218-.38-.229-.427-.173.025-.083.002-.17 0-.01.043-.083.157-.109.208-.039.077-.078.136-.116.212-.108.213-.301.527-.402.73l-.293.533c-.083-.02-.229-.125-.275-.138.01-.043.084-.157.11-.208.038-.077.077-.136.116-.212.037-.074.079-.137.116-.211.06-.119.579-1.034.579-1.062 0-.021-.117-.137-.117-.318zm1.058-.74c0-.18.111-.352.279-.431.39-.184.809.225.632.621a.47.47 0 01-.236.24.482.482 0 01-.535-.094.523.523 0 01-.14-.337zm-1.852.423c-.05 0-.094.002-.135-.045-.09-.103-.016-.213.044-.333.072-.144.161-.269.274-.382.082-.082.11-.13.22-.13.073 0 .137.067.137.17 0 .113-.212.174-.388.554-.025.054-.05.166-.152.166zm.794-.953c0-.492.686-.666.907-.198a.482.482 0 01-.094.535c-.298.298-.813.079-.813-.337z" fill="#170047"></path>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.55 1.09c0 .266.318.203.318.042 0-.265-.317-.202-.317-.042zm1.059.53c0 .265.318.202.318.042 0-.266-.318-.203-.318-.043zm-1.059.74c0 .266.318.203.318.042 0-.265-.317-.202-.317-.042zm-1.27.424c0 .265.318.202.318.042 0-.266-.317-.203-.317-.042zm2.54 0c0 .265.318.202.318.042 0-.266-.317-.203-.317-.042z" fill="#170047"></path>
+</svg>
+<span>Lotto</span> <span class="b-sh"></span>
+</a>
+</div>
+<div class="item swiper-slide" style="margin-right: 10px;">
+<a href="esport.php" class="">
+<i class="fi flaticon-gamepad"></i>
+<span>Esports</span> <span class="b-sh"></span>
+</a>
+</div>
+<div class="item swiper-slide" style="margin-right: 10px;">
+<a href="bonuses.php" class="">
+<i class="fi flaticon-gift"></i>
+<span>Bonuslar</span> <span class="b-sh"></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</header> </div>
+<div class="">
+</div>
+<div canvas="slideBar" class="container-main">
+<center>
+
+</center>
+</div>
+<div>
+<footer class="footer-bg">
+<div class="container py-3">
+<div class="row footer footer-mobile text-center">
+<div class="col col-12 text-center mb-3">
+<a href="javascript:window.scroll({top: 0, behavior: 'smooth'})" class="go-to-top"><i class="fa fa-chevron-up"></i></a>
+</div>
+<ul class="col col-12 menu list-unstyled">
+<li class="h text-uppercase text-center collapsed" role="button" tabindex="0" aria-expanded="false" aria-controls="b_corporate" style="overflow-anchor: none;">
+KURUMSAL <i class="fa fa-chevron-up ml-1 fa-d"></i><i class="fa fa-chevron-down ml-1 fa-n"></i>
+</li>
+<div id="b_corporate" class="mt-2 collapse" style="display: none;">
+<li><a href="?static#aboutus" class="" target="_self">Hakkımızda</a></li>
+<li><a href="?static#affiliate_program" class="" target="_self">Ortaklık Programı</a></li>
+<li><a href="?" class="router-link-active" target="_self">Partnerlerimiz</a></li>
+<li><a href="?static#contact" class="" target="_self">İletişim</a></li>
+</div>
+</ul>
+<ul class="col col-12 menu list-unstyled">
+<li class="h text-uppercase text-center collapsed" role="button" tabindex="0" aria-expanded="false" aria-controls="b_sports_betting" style="overflow-anchor: none;">
+SPOR BAHİSLERİ <i class="fa fa-chevron-up ml-1 fa-d"></i><i class="fa fa-chevron-down ml-1 fa-n"></i>
+</li>
+<div id="b_sports_betting" class="mt-2 collapse" style="display: none;">
+<li><a href="prelive.php" class="" target="_self">Futbol Bahisleri</a></li>
+<li><a href="?sportsbook-prelive-all-basketball" class="" target="_self">Basketbol Bahisleri</a></li>
+<li><a href="?sportsbook-prelive-all-tennis" class="" target="_self">Tenis Bahisleri</a></li>
+<li><a href="goldenrace.php" class="" target="_self">Sanal Spor Bahisleri</a></li>
+<li><a href="?static#betting" class="" target="_self">Genel Spor Kuralları</a></li>
+</div>
+</ul>
+<ul class="col col-12 menu list-unstyled">
+<li class="h text-uppercase text-center collapsed" role="button" tabindex="0" aria-expanded="false" aria-controls="b_casino_games" style="overflow-anchor: none;">
+CASINO OYUNLARI <i class="fa fa-chevron-up ml-1 fa-d"></i><i class="fa fa-chevron-down ml-1 fa-n"></i>
+</li>
+<div id="b_casino_games" class="mt-2 collapse" style="display: none;">
+<li><a href="live-casino.php" class="" target="_self">Ezugi</a></li>
+<li><a href="live-casino.php" class="" target="_self">Evolution</a></li>
+<li><a href="live-casino.php" class="" target="_self">Lucky Streak</a></li>
+<li><a href="live-casino.php" class="" target="_self">Genel Casino Kuralları</a></li>
+<li><a href="live-casino.php" class="" target="_self">Playtech</a></li>
+<li><a href="live-casino.php" class="" target="_self">Alg Casino</a></li>
+<li><a href="live-casino.php" class="" target="_self">Betgames</a></li>
+<li><a href="live-casino.php" class="" target="_self">Hollywood TV</a></li>
+<li><a href="live-casino.php" class="" target="_self">Pragmatic Play</a></li>
+<li><a href="live-casino.php" class="" target="_self">Vivo Gaming</a></li>
+<li><a href="live-casino.php" class="" target="_self">Xpg Casino</a></li>
+</div>
+</ul>
+<ul class="col col-12 menu list-unstyled">
+<li class="h text-uppercase text-center collapsed" role="button" tabindex="0" aria-expanded="false" aria-controls="b_support" style="overflow-anchor: none;">
+DESTEK <i class="fa fa-chevron-up ml-1 fa-d"></i><i class="fa fa-chevron-down ml-1 fa-n"></i>
+</li>
+<div id="b_support" class="mt-2 collapse" style="display: none;">
+<li><a href="?static#faq" class="" target="_self">Sıkça Sorulan Sorular</a></li>
+<li><a href="?static#deposit" class="" target="_self">Para Yatırma</a></li>
+<li><a href="?static#withdraw" class="" target="_self">Para Çekme</a></li>
+<li><a href="?static#complaints" class="" target="_self">Şikayetler</a></li>
+<li><a href="?static/terms" class="" target="_self">Kullanım Şartları</a></li>
+<li><a href="?static/bonusrules" class="" target="_self">Genel Çevrim Kuralları</a></li>
+<li><a href="?static/responsible_betting" class="" target="_self">Sorumlu Bahis</a></li>
+<li><a href="?static/amlkycpolicy" class="" target="_self">Kara Paranın Aklamanın Önlenmesi ve Müşteri Tanıma Politası</a></li>
+<li><a href="?static/self_exclusion" class="" target="_self">Kendini Uzaklaştırma</a></li>
+<li><a href="?static/Fairness" class="" target="_self">Adaletli Oyun ve RNG Test Metodları</a></li>
+<li><a href="?static/cookies" class="" target="_self">Çerezler</a></li>
+</div>
+</ul>
+</div>
+<div class="row text-center">
+<div class="col-12">
+<div class="row">
+<div class="col-12 mb-2">
+<picture style="display: inline-block;" alt="">
+<img src="assets/images/footer-logo.png" class="">
+</picture>
+</div>
+<div class="col-12 text-center px-0 f-copy">
+© 2022 Onwin | Tüm Hakları Saklıdır.
+</div>
+<div class="col-12">
+<div class="pb-3 mt-2 f-copy text-center lh16">
+Socas International B.V., Chuchubiweg 17, Curaçao adresine kayıtlı özel bir şirkettir. Socas International B.V., CEG_IP/2020-0130 lisans numarası altında Onwin.com olarak Curaçao Hükümeti tarafından
+yetkilendirilmiş Curaçao eGaming tarafından lisanslanmıştır ve düzenlenmiştir.
+</div>
+<div class="d-flex justify-content-center align-items-center">
+<picture style="display: inline-block;" class="lazyload mx-1">
+<img src="assets/svg/18.svg" class="" width="21" height="21">
+</picture>
+<div class="mx-1 d-inline-block">
+<a href="assets/Onwin-CM-UQFG9A3B-1668JAZ-PNZJGLCG-onwin.com.pdf" target="_blank"><img src="assets/curacao.png" height="42"></a>
+ </div>
+<div>
+<a class="btn btn-support ml-auto d-none">
+<picture style="display: inline-block; margin-top: -4px;">
+<img src="assets/svg/ls-on.svg" class="" width="24" height="24">
+</picture>
+</a>
+<div id="comm100-button" style="display: none;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="footer-bottom">
+<div class="footer-logos">
+<div class="col-12 text-center">
+<a target="_blank" href="https://www.facebook.com/Onwiin" rel="noreferrer" class="ml-3">
+<picture style="display: inline-block;">
+
+<img src="assets/images/social-facebook.svg" class="">
+</picture>
+</a>
+<a target="_blank" href="https://twitter.com/OfficialOnwin" rel="noreferrer" class="ml-3">
+<picture style="display: inline-block;">
+
+<img src="assets/images/social-twitter.svg" class="">
+</picture>
+</a>
+<a target="_blank" href="https://www.instagram.com/onwinsosyal/" rel="noreferrer" class="ml-3">
+<picture style="display: inline-block;">
+
+<img src="assets/images/social-instagram.svg" class="">
+</picture>
+</a>
+<a target="_blank" href="https://www.youtube.com/onwinresmi" rel="noreferrer" class="ml-3">
+<picture style="display: inline-block;">
+
+<img src="assets/images/social-youtube.svg" class="">
+</picture>
+</a>
+</div>
+</div>
+</div>
+<div class="footer-bottom-menu">
+<div class="container p-0">
+<div class="row m-0 p-0">
+<div class="col px-0">
+<ul class="nav justify-content-center justify-content-center">
+<li class="nav-item"><a href="?static#responsible_betting" class="nav-link" target="_self">Sorumlu Bahis</a></li>
+<li class="nav-item"><a href="?static#terms" class="nav-link" target="_self">Kurallar ve Şartlar</a></li>
+<li class="nav-item"><a href="?static#cookies" class="nav-link" target="_self">Çerezler</a></li>
+<li class="nav-item"><a href="?static#privacy_policy" class="nav-link" target="_self">Gizlilik Politikası</a></li>
+<li class="nav-item"><a href="?static#contact" class="nav-link" target="_self">İletişim</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div off-canvas="sideMenu-l left push" class="sideMenu">
+<div class="sidebarMenu">
+<ul class="mb-0 nav flex-column">
+<li class="close-holder d-flex align-items-center">
+<picture style="display: inline-block; padding-left: 20px;" alt="Logo">
+<img src="../assets/svg/logo.svg" class="" height="16">
+</picture>
+<a class="close-btn float-left ml-auto" id="menukapat">
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block">
+<path d="M14 1.39999L8.39999 7L14 12.6L12.6 14L7 8.39999L1.39999 14L0 12.6L5.59999 7L0 1.39999L1.39999 0L7 5.60001L12.6 0L14 1.39999Z" fill="white"></path>
+</svg>
+</a>
+</li>
+<div class="top-link-list">
+<div class="d-flex col-12 p-0 mb-2 align-items-center">
+<i class="fa fa-user-circle mr-2 ml-1" style="font-size: 40px;"></i>
+<div class="d-flex flex-column">
+<span style="font-size: 14px; line-height: 16px;"></span>
+<span style="font-size: 17px; line-height: 20px;">BALANCE</span>
+</div>
+</div>
+<div class="col-4">
+<a href="membership.php" class="nav-link light-bg nav-item text-uppercase" target="_self"><i class="fa fa-id-card"></i> <span>Hesabım</span></a>
+</div>
+<div class="col-4">
+<a href="deposit.php" class="nav-link light-bg nav-item text-uppercase" target="_self"><i class="fa fa-plus-octagon"></i> <span>Yatırım</span></a>
+</div>
+<div class="col-4">
+<a href="withdraw.php" class="nav-link light-bg nav-item text-uppercase" target="_self"><i class="fa fa-minus-octagon"></i> <span>Çekim</span></a>
+</div>
+<div class="col-4">
+<a href="bankAccounts.php" class="nav-link light-bg nav-item text-uppercase" target="_self"><i class="fa fa-credit-card"></i> <span>Banka Hes.</span></a>
+</div>
+<div class="col-4">
+<a href="requestcall.php" class="nav-link light-bg nav-item text-uppercase" target="_self"><i class="fa fa-phone"></i> <span>Beni Ara</span></a>
+</div>
+<div class="col-4">
+<a href="?q=logout" class="nav-link light-bg nav-item text-uppercase" target="_self"><i class="fa fa-sign-out"></i><span>Çıkış Yap</span></a>
+</div>
+</div>
+<li class="nav-item nav-item-title"><span class="nav-link">Menü</span></li>
+<li class="nav-item">
+<a href="prelive.php" class="nav-link"><span class="lm"></span> <i class="fa fa-futbol"></i> <span>BAHİS</span></a>
+</li>
+<li class="nav-item">
+<a href="live.php" class="nav-link"><span class="lm"></span><i class="fa fa-stopwatch"></i> <span>CANLI</span></a>
+</li>
+<li class="nav-item">
+<a href="esport.php" class="nav-link"><span class="lm"></span><i class="fa fa-gamepad"></i> <span>Esports</span></a>
+</li>
+<li class="nav-item">
+<a href="goldenrace.php" class="nav-link"><span class="lm"></span><i class="fab fa-cloudsmith"></i> <span>SANAL</span></a>
+</li>
+<li class="nav-item">
+<a href="live-casino.php" class="nav-link"><span class="lm"></span><i class="fa fa-dice-five"></i> <span>CANLI CASINO</span></a>
+</li>
+<li class="nav-item">
+<a href="slot.php" class="nav-link"><span class="lm"></span><i class="fa fa-wreath"></i> <span>Casino</span></a>
+</li>
+<li class="nav-item">
+<a href="mixedgames.php" class="nav-link"><span class="lm"></span><i class="far fa-triangle"></i> <span>Oyunlar</span></a>
+</li>
+<li class="nav-item">
+<a href="helio.php" class="nav-link"><span class="lm"></span><i class="fi flaticon-gamepad d-inline-block"></i> <span>Lotto</span></a>
+</li>
+<li class="nav-item">
+<a href="bonuses.php" class="nav-link"><span class="lm"></span><i class="far fa-bullhorn"></i> <span>PROMOSYONLAR</span></a>
+</li>
+<li class="nav-item">
+<a href="https://onwin97tv.com/" target="_blank" class="nav-link"><span class="lm"></span><i class="fa fa-tv"></i> <span>Onwin TV</span></a>
+</li>
+<li class="nav-item nav-item-title"><span class="nav-link">Bağlantılar</span></li>
+<div class="connect-list">
+<div class="col-6">
+<a href="?static#aboutus" class="nav-item nav-link" target="_self"><span class="lm"></span><span>Hakkımızda</span></a>
+</div>
+<div class="col-6">
+<a href="?static#contact" class="nav-item nav-link" target="_self"><span class="lm"></span><span>İletişim</span></a>
+</div>
+<div class="col-6">
+<a href="?static#faq" class="nav-item nav-link" target="_self"><span class="lm"></span><span>SSS</span></a>
+</div>
+<div class="col-6">
+<a href="?static#privacy_policy" class="nav-item nav-link" target="_self"><span class="lm"></span><span>Gizlilik Politikası</span></a>
+</div>
+<div class="col-6">
+<a href="?static#affiliate_program" class="nav-item nav-link" target="_self"><span class="lm"></span><span>Ortaklıklar</span></a>
+</div>
+<div class="col-6">
+<a href="?static/responsible_betting" class="nav-item nav-link" target="_self"><span class="lm"></span><span>Sorumlu Bahis</span></a>
+</div>
+</div>
+<li class="nav-item nav-item-title"><span class="nav-link">Sosyal Medya</span></li>
+</ul>
+<div class="col-12 text-center leftsidesocial px-1 py-2" style="background-color: white;"><a target="_blank" href="https://www.facebook.com/Onwiin"><picture style="display: inline-block;"> <img src="https://cloudcdn.owcontent.com/assets/images/social/fa-dark-facebook.svg" class=""></picture></a> <a target="_blank" href="https://twitter.com/OfficialOnwin"><picture style="display: inline-block;"> <img src="https://cloudcdn.owcontent.com/assets/images/social/fa-dark-twitter.svg" class=""></picture></a> <a target="_blank" href="https://www.instagram.com/onwinsosyal/"><picture style="display: inline-block;"> <img src="https://cloudcdn.owcontent.com/assets/images/social/fa-dark-instagram.svg" class=""></picture></a> <a target="_blank" href="https://www.youtube.com/onwinresmi"><picture style="display: inline-block;"> <img src="https://cloudcdn.owcontent.com/assets/images/social/fa-dark-youtube.svg" class=""></picture></a> <a target="_blank" href="https://t.me/Onwintelegram"><picture style="display: inline-block;"> <img src="https://cloudcdn.owcontent.com/assets/images/social/fa-dark-telegram.svg" class=""></picture></a></div>
+</div>
+</div>
+</div>
+</div>
+<style>
+          #pe_confirm.pe-optin-2 {
+          z-index: 99 !important;
+          }
+       </style>
+
+
+</body></html>

@@ -1,0 +1,248 @@
+[01-Mar-2022 21:58:00 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 21:58:00 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 21:58:00 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 21:58:00 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 21:58:00 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 21:58:00 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 21:58:00 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 21:58:00 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 21:58:00 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 21:58:00 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 21:58:27 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 21:58:27 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 21:58:27 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 21:58:27 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 21:58:27 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 21:58:27 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 21:58:27 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 21:58:27 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 21:58:27 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 21:58:27 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 21:59:38 Europe/Istanbul] PHP Warning:  include(/home/u0557004/public_html/inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 21:59:38 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 21:59:38 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 21:59:38 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 21:59:38 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 21:59:38 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 21:59:38 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 21:59:38 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 21:59:38 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 21:59:38 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:01:18 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:01:18 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:01:18 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:01:18 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:01:18 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:01:18 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:01:18 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:01:18 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/modals.php on line 23
+[01-Mar-2022 22:01:18 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/modals.php on line 28
+[01-Mar-2022 22:01:18 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/footer.php on line 84
+[01-Mar-2022 22:02:05 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:05 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:05 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 22:02:05 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:02:05 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:02:05 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:02:05 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:02:05 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:02:05 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:05 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:14 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:14 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:14 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 22:02:14 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:02:14 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:02:14 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:02:14 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:02:14 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:02:14 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:14 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:23 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:23 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:23 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 22:02:23 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:02:23 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:02:23 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:02:23 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:02:23 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:02:23 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:23 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:26 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:26 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:26 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 22:02:26 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:02:26 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:02:26 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:02:26 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:02:26 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:02:26 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:26 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:28 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:28 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:28 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 22:02:28 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:02:28 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:02:28 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:02:28 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:02:28 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:02:28 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:28 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:34 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:34 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:34 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 22:02:34 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:02:34 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:02:34 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:02:34 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:02:34 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:02:34 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:34 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:40 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:40 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:40 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 22:02:40 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:02:40 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:02:40 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:02:40 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:02:40 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:02:40 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:40 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:58 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:58 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:02:58 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 22:02:58 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:02:58 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:02:58 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:02:58 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:02:58 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:02:58 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:02:58 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:03:10 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:03:10 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:03:10 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 22:03:10 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:03:10 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:03:10 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:03:10 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:03:10 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:03:10 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:03:10 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:03:13 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:03:13 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:03:13 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 22:03:13 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:03:13 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:03:13 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:03:13 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:03:13 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:03:13 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:03:13 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:03:29 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:03:29 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:03:29 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 22:03:29 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:03:29 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:03:29 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:03:29 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:03:29 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:03:29 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:03:29 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:03:40 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:03:40 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:03:40 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 22:03:40 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:03:40 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:03:40 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:03:40 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:03:40 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:03:40 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:03:40 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:03:43 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:03:43 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:03:43 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 22:03:43 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:03:43 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:03:43 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:03:43 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:03:43 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:03:43 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:03:43 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:04:15 Europe/Istanbul] PHP Warning:  include(../inc/config.php): failed to open stream: No such file or directory in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:04:15 Europe/Istanbul] PHP Warning:  include(): Failed opening '../inc/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0557004/public_html/m/index.php on line 2
+[01-Mar-2022 22:04:15 Europe/Istanbul] PHP Notice:  Undefined index: q in /home/u0557004/public_html/m/index.php on line 3
+[01-Mar-2022 22:04:15 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 7
+[01-Mar-2022 22:04:15 Europe/Istanbul] PHP Notice:  Undefined variable: us in /home/u0557004/public_html/m/view/modules/header.php on line 13
+[01-Mar-2022 22:04:15 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 14
+[01-Mar-2022 22:04:15 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 15
+[01-Mar-2022 22:04:15 Europe/Istanbul] PHP Notice:  Undefined variable: main in /home/u0557004/public_html/m/view/modules/header.php on line 16
+[01-Mar-2022 22:04:15 Europe/Istanbul] PHP Notice:  Undefined variable: betapi in /home/u0557004/public_html/m/view/main.php on line 1
+[01-Mar-2022 22:04:15 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function getSource() on null in /home/u0557004/public_html/m/view/main.php:1
+Stack trace:
+#0 /home/u0557004/public_html/m/index.php(9): include()
+#1 {main}
+  thrown in /home/u0557004/public_html/m/view/main.php on line 1
