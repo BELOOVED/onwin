@@ -2142,7 +2142,7 @@
           </div>
         </div>
       </header>
-      <div class="sliderouter" style="display:none!important"></div>
+      <div class="sliderouter"></div>
       <div canvas="slideBar" class="container-main">
         <div class="account-page">
           <div class="container">
