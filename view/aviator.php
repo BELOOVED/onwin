@@ -1,0 +1,1 @@
+<iframe title="iframe" frameborder="0" scrolling="yes" style="width: 100%; height: 800px;" src="https://aviator-demo.spribegaming.com/?currency=USD&operator=demo&jurisdiction=CW&lang=EN&return_url=https%3A%2F%2Fspribe.co%2Fgames&user=86914&token=izH7HETTHBK7RGdalixrgvfA6lW6ntuk"></iframe>
