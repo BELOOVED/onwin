@@ -2272,7 +2272,7 @@
           </div>
         </div>
       </header>
-      <div class=sliderouter style=display:none!important></div>
+      <div class=sliderouter></div>
       <div canvas=slideBar class=container-main>
         <div>
           <div class=account-page>
@@ -2832,6 +2832,7 @@
                     </div>
                   </div>
                 </div>
+                <?php include 'modules/sidebar.php';?>
               </div>
             </div>
           </div>

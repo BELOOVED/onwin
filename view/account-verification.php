@@ -2126,7 +2126,7 @@
           </div>
         </div>
       </header>
-      <div class=sliderouter style=display:none!important></div>
+      <div class=sliderouter></div>
       <div canvas=slideBar class=container-main>
         <div class=account-page>
           <div class=container>
@@ -2192,11 +2192,12 @@
                   </div>
                 </div>
               </div>
+              <?php include 'modules/sidebar.php'; ?>
             </div>
           </div>
         </div>
       </div>
-      <?php include 'modules/sidebar.php'; ?>
+      
     </div>
     <button id=asdhh class="justify-content-center align-items-center d-flex" type=button style="z-index:12;background:none 0% 0%repeat scroll rgb(187,47,171);border:0px none;color:rgb(255,255,255);position:fixed;bottom:10px;right:10px;width:60px;height:60px;border-radius:50%;display:none!important">
       <svg id=asdhb style=display:none width=44 height=44 viewBox="0 0 44 44" xmlns=http://www.w3.org/2000/svg stroke=#fff>
