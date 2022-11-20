@@ -162,10 +162,10 @@
                            </div>
                            <div id="step_2" class="dnone">
                                                                                 </div>
-                           <div class="col-12 mb-md"><button type=submit class="btn btn-default btn-pri f-s-18 f-w-b py-3 text-uppercase w-100">GİRİŞ YAP</button></div>
+                           <div class="col-12 mb-md"><button type="submit" class="btn btn-default btn-pri f-s-18 f-w-b py-3 text-uppercase w-100">GİRİŞ YAP</button></div>
                            <div class="col-12 mb-md text-center py-4 f-f-r f-s-16">
                               Üye değil misiniz ?
-                              <a href=register class="text-pri font-weight-bold" target=_self>HEMEN ÜYE OL</a>
+                              <a href="register" class="text-pri font-weight-bold" target=_self>HEMEN ÜYE OL</a>
                            </div>
 </div>
 </div>
