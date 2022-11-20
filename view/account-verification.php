@@ -2131,7 +2131,7 @@
         <div class=account-page>
           <div class=container>
             <div class="row d-flex flex-column-reverse flex-sm-row-reverse">
-              <div class=col-sm-2 style=display:none!important></div>
+              <div class=col-sm-2 ></div>
               <div class="col-sm-8 accountDiv px-0">
                 <div class="panel-page-title p-2 p-sm-5" style=padding-bottom:0px!important>
                   <div class="px-sm-5 px-2">

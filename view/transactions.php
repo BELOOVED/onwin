@@ -2458,12 +2458,12 @@
           </div>
         </div>
       </header>
-      <div class=sliderouter style=display:none!important></div>
+      <div class=sliderouter ></div>
       <div canvas=slideBar class=container-main>
         <div data-v-2447a6fb class=account-page>
           <div class=container>
             <div class="row d-flex flex-column-reverse flex-sm-row-reverse">
-              <div class=col-sm-2 style=display:none!important></div>
+              <div class=col-sm-2 ></div>
               <div class="col-sm-8 accountDiv px-0">
                 <div class="panel-page-title p-2 p-sm-5" style=padding-bottom:0px!important>
                   <div class="px-sm-5 px-2">
@@ -2661,9 +2661,10 @@
                   </div>
                 </div>
               </div>
+              <?php include 'modules/sidebar.php'; ?>
             </div>
           </div>
         </div>
       </div>
-      <?php include 'modules/sidebar.php'; ?>
+      
     </div><button id=asdhh class="justify-content-center align-items-center d-flex" type=button style="z-index:12;background:none 0% 0%repeat scroll rgb(187,47,171);border:0px none;color:rgb(255,255,255);position:fixed;bottom:10px;right:10px;width:60px;height:60px;border-radius:50%;display:none!important"><svg id=asdhb style=display:none width=44 height=44 viewBox="0 0 44 44" xmlns=http://www.w3.org/2000/svg stroke=#fff><g fill=none fill-rule=evenodd stroke-width=2><circle cx=22 cy=22 r=1><animate attributeName=r begin=0s dur=1.8s values="1; 20" calcMode=spline keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount=indefinite></animate><animate attributeName=stroke-opacity begin=0s dur=1.8s values="1; 0" calcMode=spline keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount=indefinite></animate></circle><circle cx=22 cy=22 r=1><animate attributeName=r begin=-0.9s dur=1.8s values="1; 20" calcMode=spline keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount=indefinite></animate><animate attributeName=stroke-opacity begin=-0.9s dur=1.8s values="1; 0" calcMode=spline keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount=indefinite></animate></circle></g></svg></button>
