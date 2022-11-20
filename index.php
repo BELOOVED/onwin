@@ -4,9 +4,8 @@
   $page = "main";
   if (file_exists('view/'.$q[0].'.php')) {
     $page = $q[0];
-  }else {
+  }
   include 'view/modules/header.php';
   include 'view/'.$page.'.php';
   include 'view/modules/footer.php';
-  }
 ?>
