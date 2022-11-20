@@ -1,26 +1,29 @@
 function logIn() {
+  event.preventDefault();
   if (phone_status == 1 || passport_status == 1) {
-    $("#step_1").addClass("dnone");
-    $("#step_2").removeClass("dnone");
+    $(".loginSteps #step_1").addClass("dnone");
+    $(".loginSteps #step_2").removeClass("dnone");
     phone_status = 0;
     passport_status = 0;
   } else {
     $.ajax({
       type: "POST",
-      url: "../request.php?q=login",
-      data: $("#form").serialize(),
+      url: "/request.php?q=login",
+      data: $("#login_form").serialize(),
       success: (response) => {
         if (response == "error") {
-          $("#step_1").removeClass("dnone");
-          $("#step_2").addClass("dnone");
+          $(".loginSteps #step_1").removeClass("dnone");
+          $(".loginSteps #step_2").addClass("dnone");
           Swal.fire("Hata!", "Kullanıcı adı ve ya şifre hatalı.", "error");
+          return;
         } else if (response == "error_phone") {
           Swal.fire("Hata!", "Telefon numarasını yanlış girdiniz.", "error");
+          return;
         } else {
           if (locate == 0) {
-            window.location.reload();
+            window.location.href = "deposit";
           } else {
-            window.location.href = "/m/deposit";
+            window.location.href = "deposit";
           }
         }
       },

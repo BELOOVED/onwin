@@ -147,6 +147,8 @@
                      <div class=col-md></div>
                      <div class=col>
                      <form method="post" class="p-30" id="login_form" onsubmit="logIn()">
+                     <div class="loginSteps">
+        <div class="step_1">
                            <div class="col-12 form-title text-center py-4">
                               <div class=t>HOŞGELDİNİZ.</div>
                               <div class=d>Lütfen hesabınıza giriş yapınız.</div>
@@ -158,11 +160,15 @@
                               <input name="field_second" type=password placeholder=Parola required autocomplete=current-password aria-required=true class="inp-pri form-control" id=__BVID__451 value> 
                               <div class="f-s-14 py-3"><a href=forgot-password class=text-vio target=_self>Parolanızı mı unuttunuz?</a></div>
                            </div>
+                           <div id="step_2" class="dnone">
+                                                                                </div>
                            <div class="col-12 mb-md"><button type=submit class="btn btn-default btn-pri f-s-18 f-w-b py-3 text-uppercase w-100">GİRİŞ YAP</button></div>
                            <div class="col-12 mb-md text-center py-4 f-f-r f-s-16">
                               Üye değil misiniz ?
                               <a href=register class="text-pri font-weight-bold" target=_self>HEMEN ÜYE OL</a>
                            </div>
+</div>
+</div>
                         </form>
                      </div>
                      <div class=col-md></div>
