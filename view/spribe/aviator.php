@@ -1,0 +1,1 @@
+<iframe title="iframe" frameborder="0" scrolling="yes" style="width: 100%; height: 800px;" src="https://launch.spribegaming.com/aviator?user=1094632&amp;token=105df508-9b98-4625-85d1-1f644582f619&amp;lang=tr&amp;currency=TRY&amp;operator=onwin&amp;return_url=https://www.onwin629.com/spribe"></iframe>
