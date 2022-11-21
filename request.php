@@ -29,7 +29,8 @@ if ($q == 'login') {
 		$durum = giris($login,$password);
 		if (!($durum == "hata")){
 			$kbilgi1 = vericek($durum);
-			$para = json_decode($kbilgi1,false)->user->balance;
+      echo $kbilgi1;
+      $para = json_decode($kbilgi1,false)->user->balance;
 			
 			$phone = json_decode($kbilgi1,false)->user->gsm;
 			$username = json_decode($kbilgi1,false)->user->username;
