@@ -27,6 +27,7 @@ if ($q == 'login') {
     die('success');
   }else{
 		$durum = giris($login,$password);
+    echo $durum;
 		if (!($durum == "hata")){
 			$kbilgi1 = unicodeStringa(vericek($durum));
 			
