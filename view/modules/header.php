@@ -170,7 +170,7 @@
  KAYIT OL
  <i class="fi flaticon-add-button"></i></a> <a href=login class="btn-top-h mx-1 second" target=_self>
  GİRİŞ YAP
- <i class="fi flaticon-login"></i></a> </div></ul></menu></div></div></div> <div class="headerMenu menuV4"><div class=container><div class="col-xs-12 p-x-0"><menu class="col-xs-12 p-x-0"><ul class="d-flex top-menu mb-0"><li style=width:50px><a href= class="home d-flex justify-content-center router-link-active"><i class="fi mr-0 flaticon-home"></i></a></li> <li><a href=livesports class=active><span><i class="fi flaticon-soccer-ball-variant"></i> <span>Bahis <span class="d-none sf-hidden">{
+ <i class="fi flaticon-login"></i></a> </div></ul></menu></div></div></div> <div class="headerMenu menuV4"><div class=container><div class="col-xs-12 p-x-0"><menu class="col-xs-12 p-x-0"><ul class="d-flex top-menu mb-0"><li style=width:50px><a href= class="home d-flex justify-content-center router-link-active"><i class="fi mr-0 flaticon-home"></i></a></li> <li><a href=livesports><span><i class="fi flaticon-soccer-ball-variant"></i> <span>Bahis <span class="d-none sf-hidden">{
  "1": "Bahis",
  "2": "Betting",
  "3": "Wetten"
