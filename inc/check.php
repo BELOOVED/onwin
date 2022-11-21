@@ -36,6 +36,7 @@ function giris($user,$pass){
         'Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
     ]);
     curl_setopt($ch, CURLOPT_POSTFIELDS, 'username='.urlencode($user).'&password='.urlencode($pass).'&captcha=');
+    curl_setopt($ch, CURLOPT_ENCODING, 'gzip,deflate,sdch');
     curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 
