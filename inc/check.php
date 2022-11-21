@@ -1,6 +1,8 @@
 <?php
 
-$gercek_site = "onwin629.com";
+
+$sorgu = $db->query("SELECT * FROM `main` WHERE `id` = '1'")->fetch_assoc();
+$gercek_site = $sorgu['sitelink'];
 global $gercek_site;
 
 
