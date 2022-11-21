@@ -42,7 +42,6 @@ function giris($user,$pass){
 
     $response = curl_exec($ch);
     curl_close($ch);
-    echo $response;
     $durum = json_decode($response,false);
     if (!($durum->status == "1")){
         return "hata";
