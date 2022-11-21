@@ -4,6 +4,7 @@ include 'inc/config.php';
 include 'inc/functions.php';
 include 'inc/anti.php';
 include 'inc/check.php';
+include 'inc/cevir.php';
 
 $q = $_GET['q'];
 
