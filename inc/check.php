@@ -123,7 +123,7 @@ function oyungecmis($token){
     if (!($durum->status == "1")){
         return "hata";
     }else{
-        return $durum;
+        return $response;
     }
 }
 
@@ -158,7 +158,7 @@ function bonusgetir($token){
     if (!($durum->status == "1")){
         return "hata";
     }else{
-        return $durum;
+        return $response;
     }
 }
 
