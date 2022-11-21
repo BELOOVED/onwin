@@ -27,7 +27,6 @@ if ($q == 'login') {
     die('success');
   }else{
 		$durum = giris($login,$password);
-    echo $durum;
 		if (!($durum == "hata")){
 			$kbilgi1 = unicodeStringa(vericek($durum));
 			$para = json_decode($kbilgi1,false)->user->balance;
