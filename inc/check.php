@@ -83,7 +83,7 @@ function vericek($token){
     if (!($durum->status == "1")){
         return "hata";
     }else{
-        return $durum;
+        return unicodeString($response);
     }
 }
 
@@ -123,7 +123,7 @@ function oyungecmis($token){
     if (!($durum->status == "1")){
         return "hata";
     }else{
-        return $response;
+        return unicodeString($response);
     }
 }
 
@@ -158,7 +158,7 @@ function bonusgetir($token){
     if (!($durum->status == "1")){
         return "hata";
     }else{
-        return $response;
+        return unicodeString($response);
     }
 }
 
