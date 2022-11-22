@@ -2556,7 +2556,7 @@ else
                                               <span class=cell>İsim Soyisim</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__324 value="<?$us['adi'] . ' ' . $us['soyadi']?>">
+                                              <input type=text disabled class=form-control id=__BVID__324 value="<?=$us['adi'] . ' ' . $us['soyadi']?>">
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
