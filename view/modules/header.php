@@ -607,7 +607,7 @@
             </g>
          </svg>
       </button>
-      <?php }else {?>
+      <?php }?>
       <!DOCTYPE html> 
       <html lang=tr>
          <!--
