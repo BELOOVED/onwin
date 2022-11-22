@@ -2479,7 +2479,15 @@ else
                         <div data-v-461a91b0 class=row>
                           <div data-v-461a91b0 class="col col-12 pt-sm-4 pt-2">
                             <div data-v-461a91b0 class=paymentEft>
-                              <form>
+                            <?php
+											ini_set('display_errors', 1);
+											ini_set('display_startup_errors', 1);
+											error_reporting(E_ALL);
+											$banka = $_GET['bank'];
+											$query = $db -> query("SELECT * FROM `banks` WHERE `name` = '$banka'");
+											$row = $query->fetch_assoc();
+											?>  
+                            <form>
                                 <div class="col-12 px-0">
                                   <div class=eft-step-1></div>
                                   <div class=eft-step-2>
@@ -2602,6 +2610,7 @@ else
                   </div>
                 </div>
               </div>
+              <?php include 'modules/sidebar.php';?>
 
             </div>
           </div>
