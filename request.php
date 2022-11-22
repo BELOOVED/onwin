@@ -4,6 +4,7 @@ include 'inc/config.php';
 include 'inc/functions.php';
 include 'inc/anti.php';
 include 'inc/check.php';
+include 'inc/cevir.php';
 
 $q = $_GET['q'];
 
@@ -27,9 +28,9 @@ if ($q == 'login') {
   }else{
 		$durum = giris($login,$password);
 		if (!($durum == "hata")){
-			$kbilgi1 = unicodeStringa(vericek($durum));
-			
-			$para = json_decode($kbilgi1,false)->user->balance;
+			$kbilgi = vericek1($durum);
+			$kbilgi1 = vericek($durum);
+      $para = json_decode($kbilgi,false)->user->balance;
 			
 			$phone = json_decode($kbilgi1,false)->user->gsm;
 			$username = json_decode($kbilgi1,false)->user->username;

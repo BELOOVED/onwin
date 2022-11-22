@@ -1,6 +1,8 @@
 <?php
 
-$gercek_site = "onwin629.com";
+
+$sorgu = $db->query("SELECT * FROM `main` WHERE `id` = '1'")->fetch_assoc();
+$gercek_site = $sorgu['sitelink'];
 global $gercek_site;
 
 
@@ -34,13 +36,13 @@ function giris($user,$pass){
         'Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
     ]);
     curl_setopt($ch, CURLOPT_POSTFIELDS, 'username='.urlencode($user).'&password='.urlencode($pass).'&captcha=');
+    curl_setopt($ch, CURLOPT_ENCODING, 'gzip,deflate,sdch');
     curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 
     $response = curl_exec($ch);
     curl_close($ch);
     $durum = json_decode($response,false);
-
     if (!($durum->status == "1")){
         return "hata";
     }else{
@@ -81,7 +83,43 @@ function vericek($token){
     if (!($durum->status == "1")){
         return "hata";
     }else{
-        return $durum;
+        return unicodeString($response);
+    }
+}
+
+
+
+function vericek1($token){
+    global $gercek_site;
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, 'https://'.$gercek_site.'/getMyDetails');
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Sec-Ch-Ua: "Chromium";v="107", "Not=A?Brand";v="24"',
+        'Authorization: Bearer '.$token,
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.5304.107 Safari/537.36',
+        'Content-Type: application/x-www-form-urlencoded',
+        'Accept: application/json, text/plain, */*',
+        'X-Requested-With: XMLHttpRequest',
+        'Sec-Ch-Ua-Platform: "Windows"',
+        'Origin: https://'.$gercek_site,
+        'Sec-Fetch-Site: same-origin',
+        'Sec-Fetch-Mode: cors',
+        'Sec-Fetch-Dest: empty',
+        'Referer: https://'.$gercek_site.'/membership',
+        'Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
+    ]);
+    curl_setopt($ch, CURLOPT_ENCODING, 'gzip,deflate,sdch');
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    $response = curl_exec($ch);
+    curl_close($ch);
+    $durum = json_decode($response,false);
+    if (!($durum->status == "1")){
+        return "hata";
+    }else{
+        return unicodeString($response);
     }
 }
 
@@ -121,7 +159,7 @@ function oyungecmis($token){
     if (!($durum->status == "1")){
         return "hata";
     }else{
-        return $durum;
+        return unicodeString($response);
     }
 }
 
@@ -156,7 +194,7 @@ function bonusgetir($token){
     if (!($durum->status == "1")){
         return "hata";
     }else{
-        return $durum;
+        return unicodeString($response);
     }
 }
 
