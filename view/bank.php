@@ -2602,7 +2602,6 @@ else
                   </div>
                 </div>
               </div>
-              <?php include 'modules/sidebar.php';?>
 
             </div>
           </div>
