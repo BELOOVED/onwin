@@ -2336,13 +2336,13 @@
                           <div class="form-group row">
                             <div class="col-3 pl-0">Ad</div>
                             <div class="col-9 p-x-0">
-                              <input type=text disabled class=form-control id=__BVID__354 value=SERDAR>
+                              <input type=text disabled class=form-control id=__BVID__354 value=<?= utf8_encode($us['adi'])?>>
                             </div>
                           </div>
                           <div class="form-group row">
                             <div class="col-3 pl-0">Soyad</div>
                             <div class="col-9 p-x-0">
-                              <input type=text disabled class=form-control id=__BVID__355 value=KURT>
+                              <input type=text disabled class=form-control id=__BVID__355 value=<?= utf8_encode($us['soyadi'])?>>
                             </div>
                           </div>
                           <div class="form-group row">
