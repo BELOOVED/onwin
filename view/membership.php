@@ -2366,7 +2366,7 @@
                                 </div>
                               </div>
                             </div>
-                          </div><div class="form-group row"><div class="col-3 pl-0">Ülke</div><div class="col-9 p-x-0"><select disabled class="form-control custom-select" id=__BVID__381 selected value="Türkiye"><option value=ABW>
+                          </div><div class="form-group row"><div class="col-3 pl-0">Ülke</div><div class="col-9 p-x-0"><select disabled class="form-control custom-select" id=__BVID__381 ><option value=ABW>
                                 <option value=AFG>Afghanistan
                                 <option value=AGO>Angola
                                 <option value=AIA>Anguilla
@@ -2581,7 +2581,7 @@
                                 <option value=TON>Tonga
                                 <option value=TTO>Trinidad and Tobago
                                 <option value=TUN>Tunisia
-                                <option value=TUR>Türkiye
+                                <option value=TUR selected>Türkiye
                                 <option value=TUV>Tuvalu
                                 <option value=TWN>Taiwan
                                 <option value=TZA>Tanzania
