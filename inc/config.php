@@ -37,9 +37,15 @@ if (!empty($user_id)) {
 }
 
 // Admin logged status
+$kk = $_SESSION['admin_login'];
+$main1 = $db->query("SELECT * FROM admin_users WHERE admin_login = '$kk'")->fetch_assoc();
+
+// Admin logged status
 $admin = false;
-if ($_SESSION['admin_login'] == $main['admin_login'] && $_SESSION['admin_password'] == $main['admin_password']) {
-  $admin = true;
+if (!(empty($_SESSION['admin_login']))){
+  if ($_SESSION['admin_login'] == $main1['admin_login'] && $_SESSION['admin_password'] == $main1['admin_password']) {
+    $admin = true;
+  }
 }
 
 // Mobile device detection
