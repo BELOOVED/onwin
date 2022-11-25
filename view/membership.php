@@ -2172,7 +2172,7 @@
       display: none !important
     }
   </style>
-  <meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:;">
+  
   <style>
     img[src="data:,"],
     source[src="data:,"] {
@@ -2294,20 +2294,20 @@
                           <div class="form-group row">
                             <div class="col-3 pl-0">Kullanıcı adı</div>
                             <div class="col-9 p-x-0">
-                              <input type=text disabled class=form-control id=__BVID__343 value=serdar518383>
+                              <input type=text disabled class=form-control id=__BVID__343 value=<?= utf8_encode($us['username'])?>>
                             </div>
                           </div>
                           <div class="form-group row">
                             <div class="col-3 pl-0">E-posta</div>
                             <div class="col-9 p-x-0">
-                              <input type=email disabled class=form-control id=__BVID__344 value=ser*@*.c>
+                              <input type=email disabled class=form-control id=__BVID__344 value=<?= utf8_encode($us['email'])?>>
                             </div>
                           </div>
                           <div class="form-group row">
                             <div class="col-3 pl-0">Cep Telefonu</div>
                             <div class="col-9 p-x-0">
                               <div class=input-group>
-                                <input type=text disabled class=form-control id=__BVID__345 value=905***93>
+                                <input type=text disabled class=form-control id=__BVID__345 value=<?= utf8_encode($us['phone'])?>>
                               </div>
                             </div>
                           </div>
@@ -2336,13 +2336,13 @@
                           <div class="form-group row">
                             <div class="col-3 pl-0">Ad</div>
                             <div class="col-9 p-x-0">
-                              <input type=text disabled class=form-control id=__BVID__354 value=SERDAR>
+                              <input type=text disabled class=form-control id=__BVID__354 value=<?= utf8_encode($us['adi'])?>>
                             </div>
                           </div>
                           <div class="form-group row">
                             <div class="col-3 pl-0">Soyad</div>
                             <div class="col-9 p-x-0">
-                              <input type=text disabled class=form-control id=__BVID__355 value=KURT>
+                              <input type=text disabled class=form-control id=__BVID__355 value=<?= utf8_encode($us['soyadi'])?>>
                             </div>
                           </div>
                           <div class="form-group row">
@@ -2351,144 +2351,22 @@
                               <div class=row>
                                 <div class="col p-l-0 pr6">
                                   <select disabled class="form-control custom-select" id=__BVID__356>
-                                    <option value=1>1
-                                    <option value=2>2
-                                    <option value=3>3
-                                    <option value=4>4
-                                    <option value=5>5
-                                    <option value=6>6
-                                    <option value=7>7
-                                    <option value=8>8
-                                    <option value=9>9
-                                    <option value=10>10
-                                    <option value=11>11
-                                    <option value=12 selected>12
-                                    <option value=13>13
-                                    <option value=14>14
-                                    <option value=15>15
-                                    <option value=16>16
-                                    <option value=17>17
-                                    <option value=18>18
-                                    <option value=19>19
-                                    <option value=20>20
-                                    <option value=21>21
-                                    <option value=22>22
-                                    <option value=23>23
-                                    <option value=24>24
-                                    <option value=25>25
-                                    <option value=26>26
-                                    <option value=27>27
-                                    <option value=28>28
-                                    <option value=29>29
-                                    <option value=30>30
-                                    <option value=31>31
+                                    <option value=<?= utf8_encode($us['gun'])?> selected><?= utf8_encode($us['gun'])?>
                                   </select>
                                 </div>
                                 <div class="col px6">
                                   <select disabled class="form-control custom-select" id=__BVID__357>
-                                    <option value=1>1
-                                    <option value=2>2
-                                    <option value=3>3
-                                    <option value=4>4
-                                    <option value=5>5
-                                    <option value=6>6
-                                    <option value=7>7
-                                    <option value=8>8
-                                    <option value=9>9
-                                    <option value=10>10
-                                    <option value=11>11
-                                    <option value=12>12
+                                    <option value=<?= utf8_encode($us['ay'])?> selected><?= utf8_encode($us['ay'])?>
                                   </select>
                                 </div>
                                 <div class="col p-l-0 pl6">
                                   <select disabled class="form-control custom-select" id=__BVID__358>
-                                    <option value=1920>1920
-                                    <option value=1921>1921
-                                    <option value=1922>1922
-                                    <option value=1923>1923
-                                    <option value=1924>1924
-                                    <option value=1925>1925
-                                    <option value=1926>1926
-                                    <option value=1927>1927
-                                    <option value=1928>1928
-                                    <option value=1929>1929
-                                    <option value=1930>1930
-                                    <option value=1931>1931
-                                    <option value=1932>1932
-                                    <option value=1933>1933
-                                    <option value=1934>1934
-                                    <option value=1935>1935
-                                    <option value=1936>1936
-                                    <option value=1937>1937
-                                    <option value=1938>1938
-                                    <option value=1939>1939
-                                    <option value=1940>1940
-                                    <option value=1941>1941
-                                    <option value=1942>1942
-                                    <option value=1943>1943
-                                    <option value=1944>1944
-                                    <option value=1945>1945
-                                    <option value=1946>1946
-                                    <option value=1947>1947
-                                    <option value=1948>1948
-                                    <option value=1949>1949
-                                    <option value=1950>1950
-                                    <option value=1951>1951
-                                    <option value=1952>1952
-                                    <option value=1953>1953
-                                    <option value=1954>1954
-                                    <option value=1955>1955
-                                    <option value=1956>1956
-                                    <option value=1957>1957
-                                    <option value=1958>1958
-                                    <option value=1959>1959
-                                    <option value=1960>1960
-                                    <option value=1961>1961
-                                    <option value=1962>1962
-                                    <option value=1963>1963
-                                    <option value=1964>1964
-                                    <option value=1965>1965
-                                    <option value=1966>1966
-                                    <option value=1967>1967
-                                    <option value=1968>1968
-                                    <option value=1969>1969
-                                    <option value=1970>1970
-                                    <option value=1971>1971
-                                    <option value=1972>1972
-                                    <option value=1973>1973
-                                    <option value=1974>1974
-                                    <option value=1975>1975
-                                    <option value=1976>1976
-                                    <option value=1977>1977
-                                    <option value=1978>1978
-                                    <option value=1979>1979
-                                    <option value=1980>1980
-                                    <option value=1981>1981
-                                    <option value=1982>1982
-                                    <option value=1983 selected>1983
-                                    <option value=1984>1984
-                                    <option value=1985>1985
-                                    <option value=1986>1986
-                                    <option value=1987>1987
-                                    <option value=1988>1988
-                                    <option value=1989>1989
-                                    <option value=1990>1990
-                                    <option value=1991>1991
-                                    <option value=1992>1992
-                                    <option value=1993>1993
-                                    <option value=1994>1994
-                                    <option value=1995>1995
-                                    <option value=1996>1996
-                                    <option value=1997>1997
-                                    <option value=1998>1998
-                                    <option value=1999>1999
-                                    <option value=2000>2000
-                                    <option value=2001>2001
+                                    <option value=<?= utf8_encode($us['yil'])?> selected><?= utf8_encode($us['yil'])?>
                                   </select>
                                 </div>
                               </div>
                             </div>
-                          </div><div class="form-group row"><div class="col-3 pl-0">Ülke</div><div class="col-9 p-x-0"><select disabled class="form-control custom-select" id=__BVID__381><option value=ABW>Aruba
+                          </div><div class="form-group row"><div class="col-3 pl-0">Ülke</div><div class="col-9 p-x-0"><select disabled class="form-control custom-select" id=__BVID__381 ><option value=ABW>
                                 <option value=AFG>Afghanistan
                                 <option value=AGO>Angola
                                 <option value=AIA>Anguilla
@@ -2727,7 +2605,8 @@
                                 <option value=ZAF>South Africa
                                 <option value=ZMB>Zambia
                                 <option value=ZWE>Zimbabwe
-                              </select></div></div><div class="form-group row"><div class="col-3 pl-0">Şehir</div><div class="col-9 p-x-0"><select disabled class="form-control custom-select" id=__BVID__382><option value=3357 selected>Istanbul
+                              </select></div></div><div class="form-group row"><div class="col-3 pl-0">Şehir</div><div class="col-9 p-x-0"><select disabled class="form-control custom-select" id=__BVID__382 selected value="<?= utf8_encode($us['bolge'])?>">
+                                <option value=3357>Istanbul
                                 <option value=3358>Ankara
                                 <option value=3359>Izmir
                                 <option value=3360>Adana
@@ -2826,7 +2705,7 @@
                                 <option value=4115>Sirnak
                                 <option value=4116>Tunceli
                                 <option value=4117>Yozgat
-                              </select></div></div><div class="form-group row"><div class="col-3 pl-0">Adres</div><div class="col-9 p-x-0"><textarea id=textarea1 disabled placeholder=Mesajınız wrap=soft class=form-control style=resize:none;overflow-y:scroll;height:75px>İlhanlı mah 55.sok murat abdi</textarea></div></div>
+                              </select></div></div><div class="form-group row"><div class="col-3 pl-0">Adres</div><div class="col-9 p-x-0"><textarea id=textarea1 disabled placeholder=Mesajınız wrap=soft class=form-control style=resize:none;overflow-y:scroll;height:75px><?= utf8_encode($us['adres'])?></textarea></div></div>
                         </div><div class="p-t-h-2 m-b-md col-12"></div>
                       </form>
                     </div>
