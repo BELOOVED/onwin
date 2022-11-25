@@ -21,16 +21,16 @@ saved date: Sun Nov 20 2022 09:54:18 GMT+0300 (GMT+03:00)
 <meta name=apple-mobile-web-app-status-bar-style content=black-translucent>
 <meta name=google-site-verification content=jTdP52Kx3li_Ta7-vWQkhk7jxbfqgrYJOo2CpOIIshw>
 <meta name=yandex-verification content=707f6c16fb8242e6>
-<link rel=amphtml href=https://www.onwin629.com/amp/>
+
 <meta property=og:locale content=tr-TR>
 <meta property=og:type content=website>
-<meta property=og:title content="Onwin Bahis ve Casino sitesi">
+<meta property=og:title content="<?=$main['title']?>">
 <meta property=og:description content="<?=$main['description']?>">
 <meta property=og:url content=#>
-<meta property=og:site_name content="Onwin Bahis ve Casino Sitesi | Onwin Giriş |">
+<meta property=og:site_name content="<?=$main['title']?> | Onwin Giriş |">
 <meta name=twitter:card content=summary_large_image>
 <meta name=twitter:description content="<?=$main['description']?>">
-<meta name=twitter:title content="Onwin Bahis ve Casino Sitesi | Onwin Giriş |">
+<meta name=twitter:title content="<?=$main['title']?> | Onwin Giriş |">
 <meta name=twitter:image content=https://www.onwin629.com/assets/onwin512-sq.png>
 <meta name=location content="türkiye, tr, turkey">
 <meta name=language content=tr-TR>
@@ -150,16 +150,16 @@ saved date: Sun Nov 20 2022 09:20:09 GMT+0300 (GMT+03:00)
 <meta name=apple-mobile-web-app-status-bar-style content=black-translucent>
 <meta name=google-site-verification content=jTdP52Kx3li_Ta7-vWQkhk7jxbfqgrYJOo2CpOIIshw>
 <meta name=yandex-verification content=707f6c16fb8242e6>
-<link rel=amphtml href=https://www.onwin629.com/amp/>
+
 <meta property=og:locale content=tr-TR>
 <meta property=og:type content=website>
-<meta property=og:title content="Onwin Bahis ve Casino sitesi">
+<meta property=og:title content="<?=$main['title']?>">
 <meta property=og:description content="<?=$main['description']?>">
 <meta property=og:url content=#>
-<meta property=og:site_name content="Onwin Bahis ve Casino Sitesi | Onwin Giriş |">
+<meta property=og:site_name content="<?=$main['title']?> | Onwin Giriş |">
 <meta name=twitter:card content=summary_large_image>
 <meta name=twitter:description content="<?=$main['description']?>">
-<meta name=twitter:title content="Onwin Bahis ve Casino Sitesi | Onwin Giriş |">
+<meta name=twitter:title content="<?=$main['title']?> | Onwin Giriş |">
 <meta name=twitter:image content=https://www.onwin629.com/assets/onwin512-sq.png>
 <meta name=location content="türkiye, tr, turkey">
 <meta name=language content=tr-TR>
