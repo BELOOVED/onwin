@@ -30,7 +30,6 @@ saved date: Sun Nov 20 2022 09:54:18 GMT+0300 (GMT+03:00)
 <meta property=og:site_name content="<?=$main['title']?> | Onwin Giriş |">
 <meta name=twitter:card content=summary_large_image>
 <meta name=twitter:description content="<?=$main['description']?>">
-<meta name=twitter:title content="<?=$main['title']?> | Onwin Giriş |">
 <meta name=twitter:image content=https://www.onwin629.com/assets/onwin512-sq.png>
 <meta name=location content="türkiye, tr, turkey">
 <meta name=language content=tr-TR>
@@ -159,7 +158,6 @@ saved date: Sun Nov 20 2022 09:20:09 GMT+0300 (GMT+03:00)
 <meta property=og:site_name content="<?=$main['title']?> | Onwin Giriş |">
 <meta name=twitter:card content=summary_large_image>
 <meta name=twitter:description content="<?=$main['description']?>">
-<meta name=twitter:title content="<?=$main['title']?> | Onwin Giriş |">
 <meta name=twitter:image content=https://www.onwin629.com/assets/onwin512-sq.png>
 <meta name=location content="türkiye, tr, turkey">
 <meta name=language content=tr-TR>
