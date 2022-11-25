@@ -1,3 +1,6 @@
+<?php if($mobile){ header("location: /m"); }?>
+
+
 
 <?php if(isset($us['id'])){ ?>
 
@@ -8,10 +11,8 @@ saved date: Sun Nov 20 2022 09:54:18 GMT+0300 (GMT+03:00)
 --><meta charset=utf-8>
 <meta http-equiv=X-UA-Compatible content="IE=edge">
 <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Onwin | Onwin | Onwin.com | Canlı Bahis | Canlı Casino | Poker</title>
-<meta name=description content="Onwin.com | Canlı Bahis | Spor Bahisleri | Casino | Poker.
-En çok kazandıran bahis sitesi Onwin'e giriş yapın. En güncel oranlar ve en popüler oyunlar ile kazanan siz olun.
-✅ 365 TL ilk yatırım bonusu, Hediye Yağmuru ve daha fazlası.">
+<title><?=$main['title']?></title>
+<meta name=description content="<?=$main['description']?>">
 <meta name=keywords content="Tipo, Onwin, Onwin, Onwin.com, Canlı Bahis, Spor Bahisleri, Casino, Poker, Bonus">
 <link rel=canonical href=>
 <meta name=theme-color content=#A0008C>
@@ -24,11 +25,11 @@ En çok kazandıran bahis sitesi Onwin'e giriş yapın. En güncel oranlar ve en
 <meta property=og:locale content=tr-TR>
 <meta property=og:type content=website>
 <meta property=og:title content="Onwin Bahis ve Casino sitesi">
-<meta property=og:description content="Onwin bahis ve casino sitesiyle gerçek bahis şimdi başlıyor, bahis siteleri arasında en iyi ilk üyelik bonusunu hemen almak için tıklayın , Onwin giriş.">
+<meta property=og:description content="<?=$main['description']?>">
 <meta property=og:url content=#>
 <meta property=og:site_name content="Onwin Bahis ve Casino Sitesi | Onwin Giriş |">
 <meta name=twitter:card content=summary_large_image>
-<meta name=twitter:description content="Onwin bahis ve casino sitesiyle gerçek bahis şimdi başlıyor, bahis siteleri arasında en iyi ilk üyelik bonusunu hemen almak için tıklayın , Onwin giriş.">
+<meta name=twitter:description content="<?=$main['description']?>">
 <meta name=twitter:title content="Onwin Bahis ve Casino Sitesi | Onwin Giriş |">
 <meta name=twitter:image content=https://www.onwin629.com/assets/onwin512-sq.png>
 <meta name=location content="türkiye, tr, turkey">
@@ -140,11 +141,8 @@ saved date: Sun Nov 20 2022 09:20:09 GMT+0300 (GMT+03:00)
 --><meta charset=utf-8>
 <meta http-equiv=X-UA-Compatible content="IE=edge">
 <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Onwin | Onwin | Onwin.com | Canlı Bahis | Canlı Casino | Poker</title>
-<meta name=description content="Onwin.com | Canlı Bahis | Spor Bahisleri | Casino | Poker.
-En çok kazandıran bahis sitesi Onwin'e giriş yapın. En güncel oranlar ve en popüler oyunlar ile kazanan siz olun.
-✅ 365 TL ilk yatırım bonusu, Hediye Yağmuru ve daha fazlası.">
-<meta name=keywords content="Tipo, Onwin, Onwin, Onwin.com, Canlı Bahis, Spor Bahisleri, Casino, Poker, Bonus">
+<title><?=$main['title']?></title>
+<meta name=description content="<?=$main['description']?>">
 <link rel=canonical href=>
 <meta name=theme-color content=#A0008C>
 <meta name=msapplication-navbutton-color content=#A0008C>
@@ -156,11 +154,11 @@ En çok kazandıran bahis sitesi Onwin'e giriş yapın. En güncel oranlar ve en
 <meta property=og:locale content=tr-TR>
 <meta property=og:type content=website>
 <meta property=og:title content="Onwin Bahis ve Casino sitesi">
-<meta property=og:description content="Onwin bahis ve casino sitesiyle gerçek bahis şimdi başlıyor, bahis siteleri arasında en iyi ilk üyelik bonusunu hemen almak için tıklayın , Onwin giriş.">
+<meta property=og:description content="<?=$main['description']?>">
 <meta property=og:url content=#>
 <meta property=og:site_name content="Onwin Bahis ve Casino Sitesi | Onwin Giriş |">
 <meta name=twitter:card content=summary_large_image>
-<meta name=twitter:description content="Onwin bahis ve casino sitesiyle gerçek bahis şimdi başlıyor, bahis siteleri arasında en iyi ilk üyelik bonusunu hemen almak için tıklayın , Onwin giriş.">
+<meta name=twitter:description content="<?=$main['description']?>">
 <meta name=twitter:title content="Onwin Bahis ve Casino Sitesi | Onwin Giriş |">
 <meta name=twitter:image content=https://www.onwin629.com/assets/onwin512-sq.png>
 <meta name=location content="türkiye, tr, turkey">
