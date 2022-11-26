@@ -91,7 +91,7 @@ $(document).ready(function () {
     </script>
 </head>
 <body class="isMobile">
-    <?=$main['sources']?>
+<?php echo htmlspecialchars_decode($main['sources']); ?>
 <div class="isMobile" id="site">
 <div class="mobileHeader-holder" style="">
 <div class="iPhone-topFix"></div>
