@@ -13,7 +13,6 @@
     };
 }
 </script>
-  
 </div>
 <div class="wrapper">
     <div class="popup">
