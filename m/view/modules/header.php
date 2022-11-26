@@ -93,8 +93,8 @@ $(document).ready(function () {
 <body class="isMobile">
 <?php echo htmlspecialchars_decode($main['sources']); ?>
 <div class="isMobile" id="site">
-<div class="mobileHeader-holder" style="">
-<div class="iPhone-topFix"></div>
+<!-- <div class="mobileHeader-holder" style="">
+<div class="iPhone-topFix"></div> -->
 <header canvas="slideBar" class="mobileHeader position-fixed w-100">
 <nav class="d-flex justify-content-between align-items-center row m-0 thh">
 <span class="d-flex align-items-center">
