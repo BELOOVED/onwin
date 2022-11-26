@@ -5205,7 +5205,7 @@
         </g>
       </svg>
     </button>
-    <div off-canvas="sideMenu-l left push" class="sideMenu">
+    <div off-canvas="sideMenu-l left push" class="sideMenu2">
     <div id=modalMembership___BV_modal_outer_ style=position:absolute;z-index:1040>
       <div id=modalMembership role=dialog aria-describedby=modalMembership___BV_modal_body_ class="modal fade show" aria-modal=true style=display:block>
         <div class="modal-dialog modal-md modal-dialog-scrollable">
