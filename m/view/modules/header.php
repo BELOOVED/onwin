@@ -54,25 +54,7 @@ $(document).ready(function () {
     });
 });
 </script>
-<script>
-$(document).ready(function () {
-    $("#tooltip-intro-2").click(function () {
-        $(".sideMenu2").slideToggle("fast");
-        /*
-        const div = document.querySelector('.headmain');
-        if (div.classList.contains('extra-params-after-click') === false) {
-            div.classList.remove("extra-params");
-            div.classList.add("extra-params-after-click");
-        } else {
-            div.classList.remove("extra-params-after-click");
-            div.classList.add("extra-params");
-        }*/
-    });
-    $("#menukapat").click(function () {
-        $("#tooltip-intro-1").click();
-    });
-});
-</script>
+
 <script type="text/javascript">
   $(document).ready(function(){
     $('.slick-track').slick({
