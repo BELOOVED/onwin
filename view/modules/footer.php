@@ -1,30 +1,4 @@
-<div class="modal ReactModalPortal" id="deposit-modal">
-    <div class="ReactModal__Overlay ReactModal__Overlay--after-open" aria-modal="true" style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; background-color: rgba(255, 255, 255, 0.75);">
-      <div class="ReactModal__Content ReactModal__Content--after-open payment-modal " tabindex="-1">
-        <div class="modal-header" style="display: flex;align-items: center;justify-content: center;">
-          <div class="modal-header-content">
-            <h2>PARA YATIR</h2>
-            <div class="right-group">
-              <div class="live-help" onclick="openzopim()">
-                <i class="support icon-help-rounded"></i>
-                <p>Canlı Destek</p>
-              </div>
-              <i class="icon-close" onclick="closemodal()"></i>
-            </div>
-          </div>
-        </div>
-        <div class="modal-content">
-          <div>
-            <style media="screen">
-              #payment_frame {width: 100%;height: 540px;}
-            </style>
-            <iframe id="payment_frame" onload="setLimits(this)" src="/payment/main" width="" height=""></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
+
 <!DOCTYPE html> <html lang=tr><!--
  Page saved with SingleFile 
  url: sportsbook/prelive/day 

@@ -1,27 +1,19 @@
 <!DOCTYPE html>
 <html lang=tr style>
 <script>
-  $(".popup").hide();
   function openpay(method) {
     if(method=='guncelleniyor') { 
       return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning')
     }else{
-      e.preventDefault();
-        $("iframe").attr("payment/havale", $(this).attr('href'));
-        $(".links").fadeOut('slow');
-        $(".popup").fadeIn('slow');
+      Swal.fire({
+        heightAuto: true,
+        html: '<iframe src="/payment/'+method+'" width="" height=""></iframe>'
+    });
     };
 }
 </script>
-</div>
-<div class="wrapper">
-    <div class="popup">
-        <iframe src="">
-            <p>Your browser does not support iframes.</p>
-        </iframe>
-<a href="#" class="close">X</a>
-    </div>
-</div>
+  
+
 <meta charset=utf-8>
   <meta http-equiv=X-UA-Compatible content="IE=edge">
   <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
