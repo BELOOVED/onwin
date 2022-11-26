@@ -29,8 +29,8 @@ function opensidebar() {
   $("#left-menu").css("transform", "translateX(0%)");
 }
 function openuserbar() {
-  $(".usermenu").fadeIn(100);
-  $(".sidebarMenu").css("transform", "translateX(0%)");
+  $("#sidenav-overlay").fadeIn(100);
+  $("#user-menu").css("transform", "translateX(0%)");
 }
 function closesidebar() {
   $("#sidenav-overlay").fadeOut(100);
