@@ -5205,9 +5205,7 @@
         </g>
       </svg>
     </button>
-    <div class="isMobile modeDark" id="site">
-    <div id="sidenav-overlay">
-      <div id="left-menu" class="over_body_mask over_body_mask_after" style="top:0px;transition:all 0.3s ease 0s; transform: translateX(-100%);">
+    <div off-canvas="sideMenu-l left push" class="sideMenu">
     <div id=modalMembership___BV_modal_outer_ style=position:absolute;z-index:1040>
       <div id=modalMembership role=dialog aria-describedby=modalMembership___BV_modal_body_ class="modal fade show" aria-modal=true style=display:block>
         <div class="modal-dialog modal-md modal-dialog-scrollable">
@@ -5217,7 +5215,7 @@
               <div class=mobileProfile>
                 <div class="u-holder p-3">
                   <i class="fa fa-user-circle"></i> Ertan0438 <span class="text-white float-right">
-                    <svg width=14 height=14 viewBox="0 0 14 14" fill=none xmlns=http://www.w3.org/2000/svg class=d-block>
+                    <svg id="menukapat" width=14 height=14 viewBox="0 0 14 14" fill=none xmlns=http://www.w3.org/2000/svg class=d-block>
                       <path d="M14 1.39999L8.39999 7L14 12.6L12.6 14L7 8.39999L1.39999 14L0 12.6L5.59999 7L0 1.39999L1.39999 0L7 5.60001L12.6 0L14 1.39999Z" fill=white></path>
                     </svg>
                   </span>
@@ -5338,6 +5336,4 @@
       </div>
       <div id=modalMembership___BV_modal_backdrop_ class=modal-backdrop></div>
     </div>
-</div>
-</div>
 </div>

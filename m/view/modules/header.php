@@ -56,6 +56,25 @@ $(document).ready(function () {
     });
 });
 </script>
+<script>
+$(document).ready(function () {
+    $("#tooltip-intro-2").click(function () {
+        $(".sideMenu").slideToggle("fast");
+        /*
+        const div = document.querySelector('.headmain');
+        if (div.classList.contains('extra-params-after-click') === false) {
+            div.classList.remove("extra-params");
+            div.classList.add("extra-params-after-click");
+        } else {
+            div.classList.remove("extra-params-after-click");
+            div.classList.add("extra-params");
+        }*/
+    });
+    $("#menukapat").click(function () {
+        $("#tooltip-intro-1").click();
+    });
+});
+</script>
 <script type="text/javascript">
   $(document).ready(function(){
     $('.slick-track').slick({
@@ -96,7 +115,7 @@ $(document).ready(function () {
 <div class="top-area float-right text-right">
 <div class="user-top-panel">
 <a href="deposit" class="btn quick-deposit" target="_self">Yatırım</a>
-<div class="dropdown b-dropdown ml-sm-3 btn-group" id="__BVID__172" onclick="opensidebar()">
+<div class="dropdown b-dropdown ml-sm-3 btn-group" id="__BVID__172" id="tooltip-intro-2">
 <button aria-haspopup="true" aria-expanded="false" type="button" class="btn dropdown-toggle btn-topmenu user-top-menu" id="__BVID__172__BV_toggle_">
 <span aria-label="modalMembership" class="d-inline-block pr-sm-2 float-left" role="button" tabindex="0">
 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
