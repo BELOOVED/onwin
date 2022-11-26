@@ -20,7 +20,9 @@
 <meta name="twitter:description" content="Onwin bahis ve casino sitesiyle gerçek bahis şimdi başlıyor,bahis siteleri arasında en iyi ilk hemen almak için tıklayın, Onwin giriş.">
 <meta name="twitter:title" content="Onwin Bahis ve Casino Sitesi | Onwin Giriş |">
 <meta name="twitter:image" content="../assets/onwin512-sq.png">
+<script src="../assets/jquery.min.js"></script>
 
+<script src="../assets/sweetalert2.all.min.js"></script>
 <link href="assets/core.css" rel="stylesheet" media="screen">
 <link href="/m/assets/favicon.ico" rel="icon" type="image/png">
 
