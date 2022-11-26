@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang=tr style>
 <script>
+  $(".popup").hide();
   function openpay(method) {
     if(method=='guncelleniyor') { 
       return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning')
