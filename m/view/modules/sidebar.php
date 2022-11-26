@@ -56,8 +56,8 @@ $(document).ready(function () {
             div.classList.add("extra-params");
         }*/
     });
-    $("#menukapat").click(function () {
-        $("#tooltip-intro-1").click();
+    $("#menukapat2").click(function () {
+        $("#tooltip-intro-2").click();
     });
 });
 </script>
@@ -70,7 +70,7 @@ $(document).ready(function () {
           <div class=mobileProfile>
             <div class="u-holder p-3">
               <i class="fa fa-user-circle"></i> Ertan0438 <span class="text-white float-right">
-                <svg id="menukapat" width=14 height=14 viewBox="0 0 14 14" fill=none xmlns=http://www.w3.org/2000/svg class=d-block>
+                <svg id="menukapat2" width=14 height=14 viewBox="0 0 14 14" fill=none xmlns=http://www.w3.org/2000/svg class=d-block>
                   <path d="M14 1.39999L8.39999 7L14 12.6L12.6 14L7 8.39999L1.39999 14L0 12.6L5.59999 7L0 1.39999L1.39999 0L7 5.60001L12.6 0L14 1.39999Z" fill=white></path>
                 </svg>
               </span>
