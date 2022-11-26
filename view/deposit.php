@@ -7,32 +7,6 @@
   // $("#payment-frame").attr("src", `/payment/${method}`);
 }
 
-  </script>
-
-<div class="popup">
-        <iframe src="">
-            <p>Your browser does not support iframes.</p>
-        </iframe>
-<a href="#" class="close">X</a>
-
-    </div>
-    <script>
-      $(document).ready(function () {
-    $(".popup").hide();
-    $(".openpop").click(function (e) {
-        e.preventDefault();
-        $("iframe").attr("src", $(this).attr('href'));
-        $(".links").fadeOut('slow');
-        $(".popup").fadeIn('slow');
-    });
-
-    $(".close").click(function () {
-        $(this).parent().fadeOut("slow");
-        $(".links").fadeIn("slow");
-    });
-});
-    </script>
-
   <meta charset=utf-8>
   <meta http-equiv=X-UA-Compatible content="IE=edge">
   <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
