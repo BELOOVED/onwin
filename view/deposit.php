@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html lang=tr style>
-  <!--
- Page saved with SingleFile 
- url: deposit 
- saved date: Sun Nov 20 2022 11:51:09 GMT+0300 (GMT+03:00)
--->
+<script>
+  function openpay(method) {
+    if(method=='guncelleniyor') return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning');
+  // openmodal("PaymentFormModal");
+  // $("#payment-frame").attr("src", `/payment/${method}`);
+}
+
+  </script>
+
+<div class="popup">
+        <iframe src="">
+            <p>Your browser does not support iframes.</p>
+        </iframe>
+<a href="#" class="close">X</a>
+
+    </div>
+    <script>
+      $(document).ready(function () {
+    $(".popup").hide();
+    $(".openpop").click(function (e) {
+        e.preventDefault();
+        $("iframe").attr("src", $(this).attr('href'));
+        $(".links").fadeOut('slow');
+        $(".popup").fadeIn('slow');
+    });
+
+    $(".close").click(function () {
+        $(this).parent().fadeOut("slow");
+        $(".links").fadeIn("slow");
+    });
+});
+    </script>
+
   <meta charset=utf-8>
   <meta http-equiv=X-UA-Compatible content="IE=edge">
   <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -2172,7 +2200,8 @@
                           </div>
                         </div>
                       </div>
-                      <div data-v-461a91b0 class="depositRow mt-sm-10 col-12 p-0 m-0 row">
+                      <a class="openpop" href="/payment/havale">
+                      <div data-v-461a91b0 class="depositRow mt-sm-10 col-12 p-0 m-0 row">     
                         <div data-v-461a91b0 class="col-sm-3 col-7 py-2 pTitle text-left pl-2 pl-sm-30 pr-0">
                           <span data-v-461a91b0 class=mr-2>
                             <picture data-v-461a91b0 alt style=display:inline-block>
@@ -2180,6 +2209,7 @@
                             </picture>
                           </span> Havale / EFT
                         </div>
+                      </a>
                         <div data-v-461a91b0 class="col-5 col-sm-9 px-0 dp-right row m-0">
                           <div data-v-461a91b0 class="col-3 d-none d-sm-inline-block text-center dpCol"> Ücretsiz </div>
                           <div data-v-461a91b0 class="col-3 d-none d-sm-inline-block text-center dpCol">
