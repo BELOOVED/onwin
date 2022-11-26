@@ -7,7 +7,7 @@
     }else{
       Swal.fire({
         heightAuto: true,
-        html: '<iframe width="800" scrolling="no" src="'+"payment/"+method+'" frameborder="0"></iframe>'
+        html: '<iframe src="'+"payment/"+method+'" frameborder="0"></iframe>'
     });
     };
 }
