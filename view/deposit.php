@@ -6,7 +6,7 @@
       return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning')
     }else{
       Swal.fire({
-        html: '<iframe width="300" height="100%" src="'+"payment/"+method+'" frameborder="0"></iframe>'
+        html: '<iframe width="800" scrolling="no" src="'+"payment/"+method+'" frameborder="0"></iframe>'
     });
     };
 }
