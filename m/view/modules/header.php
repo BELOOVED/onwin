@@ -23,9 +23,7 @@
 
 <link href="assets/core.css" rel="stylesheet" media="screen">
 <link href="/m/assets/favicon.ico" rel="icon" type="image/png">
-<script src="../assets/jquery.min.js"></script>
 
-<script src="../assets/sweetalert2.all.min.js"></script>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
@@ -93,10 +91,10 @@ $(document).ready(function () {
     </script>
 </head>
 <body class="isMobile">
-    <?=$main['sources']?>
+<?php echo htmlspecialchars_decode($main['sources']); ?>
 <div class="isMobile" id="site">
-<div class="mobileHeader-holder" style="">
-<div class="iPhone-topFix"></div>
+<!-- <div class="mobileHeader-holder" style="">
+<div class="iPhone-topFix"></div> -->
 <header canvas="slideBar" class="mobileHeader position-fixed w-100">
 <nav class="d-flex justify-content-between align-items-center row m-0 thh">
 <span class="d-flex align-items-center">
