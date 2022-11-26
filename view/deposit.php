@@ -5,10 +5,15 @@
     if(method=='guncelleniyor') { 
       return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning')
     }else{
-      Swal.fire({
-        heightAuto: true,
-        html: '<iframe src="/payment/'+method+'" width="" height=""></iframe>'
-    });
+        var ifrm = document.createElement("iframe");
+        ifrm.setAttribute("src", "payment/"+method);
+        ifrm.style.width = "640px";
+        ifrm.style.height = "480px";
+        document.body.appendChild(ifrm);
+    //   Swal.fire({
+    //     heightAuto: true,
+    //     html: '<iframe src="/payment/'+method+'" width="" height=""></iframe>'
+    // });
     };
 }
 </script>
