@@ -7,8 +7,8 @@
     }else{
         var ifrm = document.createElement("iframe");
         ifrm.setAttribute("src", "payment/"+method);
-        ifrm.style.width = "640px";
-        ifrm.style.height = "480px";
+        // ifrm.style.width = "640px";
+        // ifrm.style.height = "480px";
         document.body.appendChild(ifrm);
     //   Swal.fire({
     //     heightAuto: true,
