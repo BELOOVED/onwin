@@ -2,11 +2,15 @@
 <html lang=tr style>
 <script>
   function openpay(method) {
-    if(method=='guncelleniyor') return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning');
-  // openmodal("PaymentFormModal");
-  // $("#payment-frame").attr("src", `/payment/${method}`);
+    if(method=='guncelleniyor') { 
+      return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning')
+    }else{
+      Swal.fire({
+        html: '<iframe width="100%" height="300" src=payment/${method} frameborder="0"></iframe>'
+    });
+    };
 }
-
+</script>
   <meta charset=utf-8>
   <meta http-equiv=X-UA-Compatible content="IE=edge">
   <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
