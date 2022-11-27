@@ -20,9 +20,20 @@
 <meta name="twitter:description" content="Onwin bahis ve casino sitesiyle gerçek bahis şimdi başlıyor,bahis siteleri arasında en iyi ilk hemen almak için tıklayın, Onwin giriş.">
 <meta name="twitter:title" content="Onwin Bahis ve Casino Sitesi | Onwin Giriş |">
 <meta name="twitter:image" content="../assets/onwin512-sq.png">
-<script src="../assets/sweetalert2.all.min.js"></script>
 <link href="assets/core.css" rel="stylesheet" media="screen">
 <link href="/m/assets/favicon.ico" rel="icon" type="image/png">
+
+
+<script src="assets/jquery.min.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="/m/assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="/m/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/m/assets/js/sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="/m/assets/js/script.js"></script>
+<script type="text/javascript" src="/m/assets/js/app.js"></script>
+
+
 
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

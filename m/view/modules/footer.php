@@ -327,11 +327,3 @@ yetkilendirilmiş Curaçao eGaming tarafından lisanslanmıştır ve düzenlenmi
 
 
 </body></html>
-<script src="assets/jquery.min.js"></script>
-<script src="assets/app.js"></script>
-<script src="assets/sweetalert2.all.min.js"></script>
-<script type="text/javascript" src="/m/assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="/m/assets/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/m/assets/js/sweetalert2.all.min.js"></script>
-<script type="text/javascript" src="/m/assets/js/script.js"></script>
-<script type="text/javascript" src="/m/assets/js/app.js"></script>
