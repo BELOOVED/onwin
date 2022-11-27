@@ -1,30 +1,6 @@
 <!DOCTYPE html>
 <html lang=tr style>
-<script src="/assets/js/n1.js"></script>
-<script>
-  
-  $(document).ready(function() {
 
-    $('.ajax-popup-link').magnificPopup({
-      disableOn: 700,
-      type: 'iframe',
-      mainClass: 'mfp-fade',
-      removalDelay: 160,
-      preloader: false,
-
-      fixedContentPos: false
-    });
-
-    });
-
-
-
-  function openpay(method) {
-    if(method=='guncelleniyor') { 
-      return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning')
-    };
-}
-</script>
   
 
 
@@ -2050,7 +2026,6 @@
       display: none !important
     }
   </style>
-  <meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:;">
   <style>
     img[src="data:,"],
     source[src="data:,"] {
@@ -2058,6 +2033,31 @@
     }
   </style>
   </head>
+  <script src="/assets/js/n1.js"></script>
+  <script>
+    
+    $(document).ready(function() {
+
+      $('.ajax-popup-link').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+
+        fixedContentPos: false
+      });
+
+      });
+
+
+
+    function openpay(method) {
+      if(method=='guncelleniyor') { 
+        return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning')
+      };
+  }
+  </script>
   <body class="isDesktop page-deposit" data-modal-open-count=0>
     <div class=isDesktop id=site>
       <header style=display:none!important>
