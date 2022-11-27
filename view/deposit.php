@@ -2183,7 +2183,7 @@
                           </div>
                         </div>
                       </div>
-                      <a class="ajax-popup-link" href="/payment/havale">
+                      <a class="ajax-popup-link" href="payment/havale">
                       <div data-v-461a91b0 class="depositRow mt-sm-10 col-12 p-0 m-0 row">     
                         <div data-v-461a91b0 class="col-sm-3 col-7 py-2 pTitle text-left pl-2 pl-sm-30 pr-0">
                           <span data-v-461a91b0 class=mr-2>
