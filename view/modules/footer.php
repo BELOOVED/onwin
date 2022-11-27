@@ -1,3 +1,5 @@
+<!-- <div id="mydiv">
+<iframe id="payment_frame" onload="setLimits(this)" src="/payment/main" width="" height=""></iframe> -->
 
 <!DOCTYPE html> <html lang=tr><!--
  Page saved with SingleFile 
