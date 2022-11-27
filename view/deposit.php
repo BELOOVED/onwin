@@ -1,35 +1,14 @@
 <!DOCTYPE html>
 <html lang=tr style>
-<div class="wrapper">
-    <div class="popup">
-        <iframe id="payyy" src="">
-            <p>Your browser does not support iframes.</p>
-        </iframe>
-<a href="#" class="close">X</a>
-    </div>
-</div>
+<script src="/assets/js/n1.js"></script>
 <script>
-  // $(document).ready(function () {
-  //   $(".popup").hide();})
+  $('.ajax-popup-link').magnificPopup({
+    type: 'ajax'
+  });
 
-  $(".popup").hide()
-  $(".close").click(function () {
-        $(this).parent().fadeOut("slow");
-        $(".links").fadeIn("slow");
-    });
   function openpay(method) {
     if(method=='guncelleniyor') { 
       return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning')
-    }else{
-        // var ifrm = document.createElement("iframe");
-        // ifrm.setAttribute("src", 'payment/'+method);
-        $("#payyy").attr("src", "payment/"+method);
-        $(".links").fadeOut('slow');
-        $(".popup").fadeIn('slow');
-    //   Swal.fire({
-    //     heightAuto: true,
-    //     html: '<iframe src="/payment/'+method+'" width="" height=""></iframe>'
-    // });
     };
 }
 </script>
@@ -2204,7 +2183,7 @@
                           </div>
                         </div>
                       </div>
-                      <a class="openpop" href="/payment/havale">
+                      <a class="ajax-popup-link" href="/payment/havale">
                       <div data-v-461a91b0 class="depositRow mt-sm-10 col-12 p-0 m-0 row">     
                         <div data-v-461a91b0 class="col-sm-3 col-7 py-2 pTitle text-left pl-2 pl-sm-30 pr-0">
                           <span data-v-461a91b0 class=mr-2>
