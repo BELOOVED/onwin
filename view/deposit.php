@@ -2179,7 +2179,7 @@
                         <a href=bankAccounts>Banka Hesapları</a>
                       </div>
                     </div>
-                    
+                    <iframe src="../payment/" style="width:100%;height:calc(160vh - 191px);border:0"></iframe>
                   </div>
                 </div>
               </div>
