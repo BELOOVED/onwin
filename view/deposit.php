@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang=tr style>
+<div class="wrapper">
+    <div class="popup">
+        <iframe src="">
+            <p>Your browser does not support iframes.</p>
+        </iframe>
+<a href="#" class="close">X</a>
+    </div>
+</div>
 <script>
   $(document).ready(function () {
     $(".popup").hide();})
@@ -24,14 +32,7 @@
 </script>
   
 
-<div class="wrapper">
-    <div class="popup">
-        <iframe src="">
-            <p>Your browser does not support iframes.</p>
-        </iframe>
-<a href="#" class="close">X</a>
-    </div>
-</div>
+
 
 <meta charset=utf-8>
   <meta http-equiv=X-UA-Compatible content="IE=edge">
