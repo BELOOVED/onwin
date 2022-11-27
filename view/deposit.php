@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang=tr style>
+<!-- <script src="/assets/js/n1.js"></script>
+<link rel="stylesheet" href="/assets/css/n1.css"> -->
 <script>
+  
+  // $(document).ready(function() {
+
+  //   $('.ajax-popup-link').magnificPopup({
+  //     disableOn: 700,
+  //     type: 'iframe',
+  //     mainClass: 'mfp-fade',
+  //     removalDelay: 160,
+  //     preloader: false,
+
+  //     fixedContentPos: true
+  //   });
+
+  //   });
+
+
+
   function openpay(method) {
     if(method=='guncelleniyor') { 
       return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning')
-    }else{
-        var ifrm = document.createElement("iframe");
-        ifrm.setAttribute("src", "payment/"+method);
-        // ifrm.style.width = "640px";
-        // ifrm.style.height = "480px";
-        document.body.appendChild(ifrm);
-    //   Swal.fire({
-    //     heightAuto: true,
-    //     html: '<iframe src="/payment/'+method+'" width="" height=""></iframe>'
-    // });
     };
 }
 </script>
-  
+
+
 
 <meta charset=utf-8>
   <meta http-equiv=X-UA-Compatible content="IE=edge">
@@ -2040,7 +2050,6 @@
       display: none !important
     }
   </style>
-  <meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:;">
   <style>
     img[src="data:,"],
     source[src="data:,"] {
@@ -2186,7 +2195,7 @@
                           </div>
                         </div>
                       </div>
-                      <a class="openpop" href="/payment/havale">
+                      <a class="ajax-popup-link" href="payment/havale">
                       <div data-v-461a91b0 class="depositRow mt-sm-10 col-12 p-0 m-0 row">     
                         <div data-v-461a91b0 class="col-sm-3 col-7 py-2 pTitle text-left pl-2 pl-sm-30 pr-0">
                           <span data-v-461a91b0 class=mr-2>
