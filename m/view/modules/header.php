@@ -23,7 +23,7 @@
 <script src="../assets/jquery.min.js"></script>
 
 <script src="../assets/sweetalert2.all.min.js"></script>
-<link href="assets/core.css" rel="stylesheet" media="screen">
+<!-- <link href="assets/core.css" rel="stylesheet" media="screen"> -->
 <link href="/m/assets/favicon.ico" rel="icon" type="image/png">
 
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
