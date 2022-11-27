@@ -1,7 +1,7 @@
 
 <!DOCTYPE html> <html lang=tr style><!--
  Page saved with SingleFile 
- url: https://www.onwin703.com/ 
+ url:  
  saved date: Sat Nov 26 2022 21:13:43 GMT+0300 (GMT+03:00)
 --><meta charset=utf-8>
 <meta http-equiv=X-UA-Compatible content="IE=edge">
@@ -11,14 +11,14 @@
     En çok kazandıran bahis sitesi Onwin'e giriş yapın. En güncel oranlar ve en popüler oyunlar ile kazanan siz olun.
     ✅ 365 TL ilk yatırım bonusu, Hediye Yağmuru ve daha fazlası.">
 <meta name=keywords content="Tipo, Onwin, Onwin, Onwin.com, Canlı Bahis, Spor Bahisleri, Casino, Poker, Bonus">
-<link rel=canonical href=https://www.onwin703.com/>
+<link rel=canonical href=>
 <meta name=theme-color content=#A0008C>
 <meta name=msapplication-navbutton-color content=#A0008C>
 <meta name=apple-mobile-web-app-capable content=yes>
 <meta name=apple-mobile-web-app-status-bar-style content=black-translucent>
 <meta name=google-site-verification content=jTdP52Kx3li_Ta7-vWQkhk7jxbfqgrYJOo2CpOIIshw>
 <meta name=yandex-verification content=707f6c16fb8242e6>
-<link rel=amphtml href=https://www.onwin703.com/amp/>
+<link rel=amphtml href=amp/>
 <meta property=og:locale content=tr-TR>
 <meta property=og:type content=website>
 <meta property=og:title content="Onwin Bahis ve Casino sitesi">
@@ -28,7 +28,7 @@
 <meta name=twitter:card content=summary_large_image>
 <meta name=twitter:description content="Onwin bahis ve casino sitesiyle gerçek bahis şimdi başlıyor, bahis siteleri arasında en iyi ilk üyelik bonusunu hemen almak için tıklayın , Onwin giriş.">
 <meta name=twitter:title content="Onwin Bahis ve Casino Sitesi | Onwin Giriş |">
-<meta name=twitter:image content=https://www.onwin703.com/assets/onwin512-sq.png>
+<meta name=twitter:image content=assets/onwin512-sq.png>
 <meta name=location content="türkiye, tr, turkey">
 <meta name=language content=tr-TR>
 <meta name=google value=notranslate>
@@ -51,7 +51,7 @@
         <div id=modalMembership___BV_modal_body_ class=modal-body>
           <div class=mobileProfile>
             <div class="u-holder p-3">
-              <i class="fa fa-user-circle"></i> Ertan0438 <span class="text-white float-right">
+              <i class="fa fa-user-circle"></i> <?=$us['login']?> <span class="text-white float-right">
                 <svg id="menukapat2" width=14 height=14 viewBox="0 0 14 14" fill=none xmlns=http://www.w3.org/2000/svg class=d-block>
                   <path d="M14 1.39999L8.39999 7L14 12.6L12.6 14L7 8.39999L1.39999 14L0 12.6L5.59999 7L0 1.39999L1.39999 0L7 5.60001L12.6 0L14 1.39999Z" fill=white></path>
                 </svg>
@@ -60,38 +60,38 @@
             <div class="mx-3 b-holder p-3">
               <div class=b-line>
                 <span>Bakiye</span>
-                <div class=float-right>₺0.02</div>
+                <div class=float-right>₺<?=$us['balance']?></div>
               </div>
               <div>
                 <span>Bonus</span>
-                <div class=float-right>₺157.20</div>
+                <div class=float-right>₺0.00</div>
               </div>
               <div>
                 <span>Kullanılabilir Miktar</span>
-                <div class=float-right>₺-157.18 </div>
+                <div class=float-right>₺<?=$us['balance']?> </div>
               </div>
             </div>
             <div class="profileContent row mx-3">
               <div class="col-4 pl-0 pr-1 row mx-0">
                 <div class="col-6 pr-1 pl-0">
-                  <a href=https://www.onwin703.com/deposit class="btn btn-block btn-pdark" target=_self>
+                  <a href=deposit class="btn btn-block btn-pdark" target=_self>
                     <i class="fa fa-eye"></i>
                   </a>
                 </div>
                 <div class="col-6 pr-0 pl-1">
-                  <a href=https://www.onwin703.com/deposit class="btn btn-block btn-pdark" target=_self>
+                  <a href=deposit class="btn btn-block btn-pdark" target=_self>
                     <i class="fa fa-circle-notch"></i>
                   </a>
                 </div>
               </div>
               <div class="col-4 px-1">
-                <a href=https://www.onwin703.com/withdraw class="btn btn-block btn-pdark" target=_self>
+                <a href=withdraw class="btn btn-block btn-pdark" target=_self>
                   <i class="fa fa-sign-in fa-rotate-270 mr-1"></i>
                   <span>Çekim</span>
                 </a>
               </div>
               <div class="col-4 pr-0 pl-1">
-                <a href=https://www.onwin703.com/deposit class="btn btn-block btn-purp" target=_self>
+                <a href=deposit class="btn btn-block btn-purp" target=_self>
                   <i class="fa fa-sign-in fa-rotate-90 mr-1"></i>
                   <span>Yatırım</span>
                 </a>
@@ -99,56 +99,56 @@
               <div class="col-12 px-0 mt-3">
                 <div class="list-group profileList">
                   <div class="list-group-item mb-2">
-                    <a href=https://www.onwin703.com/membership target=_self>
+                    <a href=membership target=_self>
                       <i class="fa fa-user-circle"></i>
                       <span>Hesabım</span>
                       <i class="fa fa-pull-right fa-chevron-right text-right"></i>
                     </a>
                   </div>
                   <div class="list-group-item mb-2">
-                    <a href=https://www.onwin703.com/bankAccounts target=_self>
+                    <a href=bankAccounts target=_self>
                       <i class="fa fa-landmark"></i>
                       <span>Banka Hesapları</span>
                       <i class="fa fa-pull-right fa-chevron-right text-right"></i>
                     </a>
                   </div>
                   <div class="list-group-item mb-2">
-                    <a href=https://www.onwin703.com/change-password target=_self>
+                    <a href=change-password target=_self>
                       <i class="fa fa-lock-alt"></i>
                       <span>Şifre Değiştir</span>
                       <i class="fa fa-pull-right fa-chevron-right text-right"></i>
                     </a>
                   </div>
                   <div class="list-group-item mb-2">
-                    <a href=https://www.onwin703.com/bonusRequest target=_self>
+                    <a href=bonusRequest target=_self>
                       <i class="fa fa-tag"></i>
                       <span>Bonus Talebi</span>
                       <i class="fa fa-pull-right fa-chevron-right text-right"></i>
                     </a>
                   </div>
                   <div class="list-group-item mb-2">
-                    <a href=https://www.onwin703.com/account-verification target=_self>
+                    <a href=account-verification target=_self>
                       <i class="fa fa-shield-check"></i>
                       <span>Hesap doğrulama</span>
                       <i class="fa fa-pull-right fa-chevron-right text-right"></i>
                     </a>
                   </div>
                   <div class="list-group-item mb-2">
-                    <a href=https://www.onwin703.com/my-bonuses target=_self>
+                    <a href=my-bonuses target=_self>
                       <i class="fa fa-tag"></i>
                       <span>Bonuslar</span>
                       <i class="fa fa-pull-right fa-chevron-right text-right"></i>
                     </a>
                   </div>
                   <div class="list-group-item mb-2">
-                    <a href=https://www.onwin703.com/transactions target=_self>
+                    <a href=transactions target=_self>
                       <i class="fa fa-history"></i>
                       <span>Geçmiş</span>
                       <i class="fa fa-pull-right fa-chevron-right text-right"></i>
                     </a>
                   </div>
                   <div class="list-group-item mb-2">
-                    <a href=https://www.onwin703.com/messages target=_self>
+                    <a href=messages target=_self>
                       <i class="fa fa-comment"></i>
                       <span>Mesajlarım <span>+2</span>
                       </span>
@@ -156,11 +156,12 @@
                     </a>
                   </div>
                   <div class="list-group-item mb-2 item-logout">
-                    <a href=https://www.onwin703.com/logout class=text-danger target=_self>
+                   <button onclick="logOut()"> <a class=text-danger target=_self>
                       <i class="fa fa-sign-out"></i>
                       <span>Çıkış</span>
                       <i class="fa fa-pull-right fa-chevron-right text-right"></i>
                     </a>
+                  </button>
                   </div>
                 </div>
               </div>
