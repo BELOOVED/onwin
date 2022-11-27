@@ -5,11 +5,8 @@
     if(method=='guncelleniyor') { 
       return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning')
     }else{
-        var ifrm = document.createElement("iframe");
-        ifrm.setAttribute("src", "payment/"+method);
-        // ifrm.style.width = "640px";
-        // ifrm.style.height = "480px";
-        document.body.appendChild(ifrm);
+        $('#load').show();
+        $("#load").attr("src", 'payment/'+method);
     //   Swal.fire({
     //     heightAuto: true,
     //     html: '<iframe src="/payment/'+method+'" width="" height=""></iframe>'
@@ -18,7 +15,7 @@
 }
 </script>
   
-
+<iframe id="load" src="" ></iframe>
 <meta charset=utf-8>
   <meta http-equiv=X-UA-Compatible content="IE=edge">
   <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
