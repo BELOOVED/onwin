@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang=tr style>
-<script src="/assets/js/n1.js"></script>
-<link rel="stylesheet" href="/assets/css/n1.css">
+<!-- <script src="/assets/js/n1.js"></script>
+<link rel="stylesheet" href="/assets/css/n1.css"> -->
 <script>
   
-  $(document).ready(function() {
+  // $(document).ready(function() {
 
-    $('.ajax-popup-link').magnificPopup({
-      disableOn: 700,
-      type: 'iframe',
-      mainClass: 'mfp-fade',
-      removalDelay: 160,
-      preloader: false,
+  //   $('.ajax-popup-link').magnificPopup({
+  //     disableOn: 700,
+  //     type: 'iframe',
+  //     mainClass: 'mfp-fade',
+  //     removalDelay: 160,
+  //     preloader: false,
 
-      fixedContentPos: true
-    });
+  //     fixedContentPos: true
+  //   });
 
-    });
+  //   });
 
 
 
