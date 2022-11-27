@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang=tr style>
 <script>
+  $(document).ready(function () {
+    $(".popup").hide();)};
+
+
   function openpay(method) {
     if(method=='guncelleniyor') { 
       return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning')
     }else{
         // var ifrm = document.createElement("iframe");
         // ifrm.setAttribute("src", 'payment/'+method);
-        const video = document.createElement('div');
-        video.innerHTML = `<iframe width="560" height="315" src="payment/${method}" frameborder="0"></iframe>`;
+        e.preventDefault();
+        $("iframe").attr("src", $(this).attr("payment/"+method);
+        $(".links").fadeOut('slow');
+        $(".popup").fadeIn('slow');
     //   Swal.fire({
     //     heightAuto: true,
     //     html: '<iframe src="/payment/'+method+'" width="" height=""></iframe>'
@@ -17,6 +23,16 @@
 }
 </script>
   
+
+<div class="wrapper">
+    <div class="popup">
+        <iframe src="">
+            <p>Your browser does not support iframes.</p>
+        </iframe>
+<a href="#" class="close">X</a>
+    </div>
+</div>
+
 <meta charset=utf-8>
   <meta http-equiv=X-UA-Compatible content="IE=edge">
   <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
