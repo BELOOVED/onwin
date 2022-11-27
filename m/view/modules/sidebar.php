@@ -156,7 +156,7 @@
                     </a>
                   </div>
                   <div class="list-group-item mb-2 item-logout">
-                   <button onclick="logOut()"> <a class=text-danger target=_self>
+                   <button style="border: none; outline: none;" onclick="logout()"> <a class=text-danger target=_self>
                       <i class="fa fa-sign-out"></i>
                       <span>Çıkış</span>
                       <i class="fa fa-pull-right fa-chevron-right text-right"></i>
