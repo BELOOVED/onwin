@@ -312,12 +312,12 @@ yetkilendirilmiş Curaçao eGaming tarafından lisanslanmıştır ve düzenlenmi
 </div>
  <? } ?>
 </div>
-<!-- 
+
 <style>
           #pe_confirm.pe-optin-2 {
           z-index: 99 !important;
           }
-       </style> -->
+       </style>
 
 
 
