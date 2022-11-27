@@ -9,10 +9,10 @@
     </div>
 </div>
 <script>
-  $(document).ready(function () {
-    $(".popup").hide();})
+  // $(document).ready(function () {
+  //   $(".popup").hide();})
 
-
+  $(".popup").hide()
   function openpay(method) {
     if(method=='guncelleniyor') { 
       return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning')
