@@ -2,7 +2,7 @@
 <html lang=tr style>
 <div class="wrapper">
     <div class="popup">
-        <iframe src="">
+        <iframe id="payyy" src="">
             <p>Your browser does not support iframes.</p>
         </iframe>
 <a href="#" class="close">X</a>
@@ -23,7 +23,7 @@
     }else{
         // var ifrm = document.createElement("iframe");
         // ifrm.setAttribute("src", 'payment/'+method);
-        $("iframe").attr("src", "payment/"+method);
+        $("#payyy").attr("src", "payment/"+method);
         $(".links").fadeOut('slow');
         $(".popup").fadeIn('slow');
     //   Swal.fire({
