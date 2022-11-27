@@ -2172,7 +2172,6 @@
         display: none !important
       }
     </style>
-    <meta http-equiv="content-security-policy" content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:;">
     <style>
       img[src="data:,"],
       source[src="data:,"] {
