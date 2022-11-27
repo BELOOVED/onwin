@@ -2,9 +2,18 @@
 <html lang=tr style>
 <script src="/assets/js/n1.js"></script>
 <script>
-  $('.ajax-popup-link').magnificPopup({
-    type: 'ajax'
-  });
+  
+  $(document).ready(function() {
+
+    $('.ajax-popup-link').magnificPopup({
+      type: 'ajax',
+      alignTop: true,
+      overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+    });
+
+    });
+
+
 
   function openpay(method) {
     if(method=='guncelleniyor') { 
