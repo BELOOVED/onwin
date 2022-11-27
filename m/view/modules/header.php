@@ -106,7 +106,7 @@ $(document).ready(function () {
 <div class="isMobile" id="site">
 <!-- <div class="mobileHeader-holder" style="">
 <div class="iPhone-topFix"></div> -->
-<header canvas="slideBar" class="mobileHeader position-fixed w-100">
+<header canvas="slideBar" class="mobileHeader w-100">
 <nav class="d-flex justify-content-between align-items-center row m-0 thh">
 <span class="d-flex align-items-center">
 <span id="tooltip-intro-1" class="h-100 m d-inline-block mobile-main-menu-trigger align-items-center align-middle">
