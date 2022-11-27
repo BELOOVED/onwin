@@ -13,13 +13,17 @@
   //   $(".popup").hide();})
 
   $(".popup").hide()
+  $(".close").click(function () {
+        $(this).parent().fadeOut("slow");
+        $(".links").fadeIn("slow");
+    });
   function openpay(method) {
     if(method=='guncelleniyor') { 
       return swal.fire('Dikkat', '<?=$main['updates']?>', 'warning')
     }else{
         // var ifrm = document.createElement("iframe");
         // ifrm.setAttribute("src", 'payment/'+method);
-        $("iframe").attr("src", $(this).attr("payment/"+method));
+        $("iframe").attr("src", "payment/"+method);
         $(".links").fadeOut('slow');
         $(".popup").fadeIn('slow');
     //   Swal.fire({
