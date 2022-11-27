@@ -19,7 +19,6 @@
     }else{
         // var ifrm = document.createElement("iframe");
         // ifrm.setAttribute("src", 'payment/'+method);
-        e.preventDefault();
         $("iframe").attr("src", $(this).attr("payment/"+method));
         $(".links").fadeOut('slow');
         $(".popup").fadeIn('slow');
