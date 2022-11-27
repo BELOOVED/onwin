@@ -2,7 +2,7 @@
 <html lang=tr style>
 <script>
   $(document).ready(function () {
-    $(".popup").hide();)};
+    $(".popup").hide();});
 
 
   function openpay(method) {
