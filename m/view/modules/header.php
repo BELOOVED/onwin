@@ -37,7 +37,7 @@
 
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<!-- 
+
 <style>
 .ui-loader {
     display: none !important;
@@ -45,7 +45,7 @@
 .opensub {
     display: none;
 }
-</style> -->
+</style>
 <script>
 $(document).ready(function () {
     $("#tooltip-intro-1").click(function () {
