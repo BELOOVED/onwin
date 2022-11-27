@@ -10,4 +10,4 @@ include "view/modules/sidebar.php";
 include "view/".$page.".php";
 // include "view/modules/modal.php";
 // include "view/modules/coupon.php";
-// include "view/modules/footer.php";
+include "view/modules/footer.php";
