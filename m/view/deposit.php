@@ -35,7 +35,7 @@ Para Yatırma Yöntemleri
 <div class="col-6 col-sm-auto flex-sm-grow-1 mb-2 pl-0"><a href="bankaccounts" class="">Banka Hesapları</a></div>
 </div>
 <div data-v-72c175cd="" class="row depositTypes m-0">
-<iframe src="../payment/" style="width:100%;height:calc(160vh - 191px);border:0"></iframe>
+<iframe src="/payment/" style="width:100%;height:calc(160vh - 191px);border:0"></iframe>
 </div>
 </div>
 </div>
