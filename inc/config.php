@@ -11,7 +11,7 @@ date_default_timezone_set('Europe/Istanbul');
 const DB_HOST = "localhost";
 const DB_LOGIN = "u1851_on";
 const DB_PASS = "df1Jh094_";
-const DB_NAME = "u1851750_onwin";
+const DB_NAME = "u1851750_on";
 const SYSNAME = 'Onwin';
 const ENV = 'prod';
 
