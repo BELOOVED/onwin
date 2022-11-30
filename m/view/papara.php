@@ -2577,7 +2577,7 @@ $limits = $db->query("SELECT * FROM limits WHERE name = 'papara'")->fetch_assoc(
                                               </span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=number step=1 class=form-control id=__BVID__320 value>
+                                              <input type=number name="amount" step=1 class=form-control id=__BVID__320 value>
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0 py-3">
