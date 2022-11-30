@@ -2,13 +2,6 @@
 include '../../inc/config.php';
 $accounts = $db->query("SELECT * from accounts where id = 1")->fetch_assoc();
 $limits = $db->query("SELECT * FROM limits WHERE name = 'papara'")->fetch_assoc();
-if($_GET["bank"]){
-
-}
-else
-{
-  header('Location: deposit');
-}
 ?>
 <!DOCTYPE html>
 <html lang=tr style>
@@ -2505,7 +2498,7 @@ else
                                               <span class=cell>HESAP SAHİBİ</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__312 value="<?= $accounts['account_holder'] ?>">
+                                              <input type=text disabled class=form-control id=__BVID__312 value="<?= $accounts['papara_holder'] ?>">
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
@@ -2513,7 +2506,7 @@ else
                                               <span class=cell>ŞUBE KODU</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__313 value=<?= $accounts['branch_code'] ?>>
+                                              <input type=text disabled class=form-control id=__BVID__313 value=<?= $accounts['papara_number'] ?>>
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
@@ -2521,7 +2514,7 @@ else
                                               <span class=cell>HESAP NO</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__314 value=<?= $accounts['account_number'] ?>>
+                                              <input type=text disabled class=form-control id=__BVID__314 value=<?= $accounts['papara_number'] ?>>
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
@@ -2529,7 +2522,7 @@ else
                                               <span class=cell>IBAN</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input id=iban type=text readonly class=form-control value=<?= $accounts['iban'] ?>>
+                                              <input id=iban type=text readonly class=form-control value=<?= $accounts['papara_number'] ?>>
                                               <button type=button class="btn position-absolute btn-dark btn-sm" style="right:3px;padding:4px 10px;top:3px">KOPYALA</button>
                                             </div>
                                           </div>
@@ -2551,7 +2544,7 @@ else
                                               <span class=cell>Yatırım Yaptığınız Hesap</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__317 value="(<?= $accounts['name']?>)">
+                                              <input type=text disabled class=form-control id=__BVID__317 value="(PAPARA)">
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
