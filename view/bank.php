@@ -2497,7 +2497,7 @@ else
                                               <span class=cell>HESAP SAHİBİ</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__318 value="<?= $row['account_holder'] ?>">
+                                              <input type=text disabled class=form-control id=__BVID__318 value="<?= $accounts['account_holder'] ?>">
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
@@ -2505,7 +2505,7 @@ else
                                               <span class=cell>ŞUBE KODU</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__319 value="<?= $row['branch_code']?>">
+                                              <input type=text disabled class=form-control id=__BVID__319 value="<?= $accounts['branch_code']?>">
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
@@ -2513,7 +2513,7 @@ else
                                               <span class=cell>HESAP NO</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__320 value="<?= $row['account_number']?>">
+                                              <input type=text disabled class=form-control id=__BVID__320 value="<?= $accounts['account_number']?>">
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
@@ -2521,7 +2521,7 @@ else
                                               <span class=cell>IBAN</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input id=iban type=text readonly class=form-control value="<?= $row['iban'] ?>">
+                                              <input id=iban type=text readonly class=form-control value="<?= $accounts['iban'] ?>">
                                               <button type=button class="btn position-absolute btn-dark btn-sm" style="right:3px;padding:4px 10px;top:3px">KOPYALA</button>
                                             </div>
                                           </div>
@@ -2543,7 +2543,7 @@ else
                                               <span class=cell>Yatırım Yaptığınız Hesap</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__323 style="text-transform: uppercase;" value="<?= $row['name'] ?>">
+                                              <input type=text disabled class=form-control id=__BVID__323 style="text-transform: uppercase;" value="<?= $accounts['name'] ?>">
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">

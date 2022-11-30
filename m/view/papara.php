@@ -1,7 +1,7 @@
 <?php
 include '../../inc/config.php';
 $accounts = $db->query("SELECT * from accounts where id = 1")->fetch_assoc();
-$limits = $db->query("SELECT * FROM limits WHERE name = 'havale'")->fetch_assoc();
+$limits = $db->query("SELECT * FROM limits WHERE name = 'papara'")->fetch_assoc();
 if($_GET["bank"]){
 
 }
