@@ -12,11 +12,6 @@ else
 ?>
 <!DOCTYPE html>
 <html lang=tr style>
-  <!--
- Page saved with SingleFile 
- url: https://onwin632.com/deposit#eft 
- saved date: Tue Nov 22 2022 16:43:25 GMT+0300 (GMT+03:00)
--->
   <meta charset=utf-8>
   <meta http-equiv=X-UA-Compatible content="IE=edge">
   <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
