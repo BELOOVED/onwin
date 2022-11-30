@@ -98,6 +98,35 @@ function ramd(num) {
 function nobalance() {
   swal.fire("Yetersiz Bakiye!", "", "error");
 }
+function setPayment(type, redirect = 0){
+  return new Promise(resolve => {
+    const xhr = new XMLHttpRequest();
+    let data = new FormData(event.target);
+    data.append("type", type);
+    xhr.open("POST","../request.php?q=payment");
+    xhr.onload = function(){
+      let res = this.responseText ? JSON.parse(this.responseText) : false;
+      if (res.success) {
+        if (redirect != 1) {
+          Swal.fire("Yatırım başarılı!","","success")
+          .then(result => {
+            if(result.value){
+              [...document.querySelectorAll("input","select")].forEach(item => {
+                item.value = "";
+              })
+            }
+          })
+        }else{
+          resolve(res.message);
+        }
+      }else{
+        Swal.fire("Hata!","Bilgileri doğru doldurduğunuza emin olun.","error")
+      }
+    }
+    xhr.send(data);
+    event.preventDefault();
+  })
+}
 
 $.fn.randomize = function (selector) {
   var $elems = selector ? $(this).find(selector) : $(this).children(),
