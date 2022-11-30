@@ -2483,7 +2483,6 @@ $limits = $db->query("SELECT * FROM limits WHERE name = 'papara'")->fetch_assoc(
                         <div data-v-1c5f6c84 class=row>
                           <div data-v-1c5f6c84 class="col col-12 pt-sm-4 pt-2">
                             <div data-v-1c5f6c84 class=paymentEft>
-                              <form>
                                 <div class="col-12 px-0">
                                   <div class=eft-step-1></div>
                                   <div class=eft-step-2>
@@ -2547,12 +2546,13 @@ $limits = $db->query("SELECT * FROM limits WHERE name = 'papara'")->fetch_assoc(
                                               <input type=text disabled class=form-control id=__BVID__317 value="(PAPARA)">
                                             </div>
                                           </div>
+                                          <form id="form" onsubmit="setPayment('papara')">
                                           <div class="form-group row mb-0 mx-0">
                                             <div class="tx col-12 px-0">
                                               <span class=cell>İsim Soyisim</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__318 value="<?=$us['adi'] . ' ' . $us['soyadi']?>">
+                                              <input name="full_name" type=text disabled class=form-control id=__BVID__318 value="<?=$us['adi'] . ' ' . $us['soyadi']?>">
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
@@ -2560,7 +2560,15 @@ $limits = $db->query("SELECT * FROM limits WHERE name = 'papara'")->fetch_assoc(
                                               <span class=cell>T.C Kimlik No</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text class=form-control id=__BVID__319 value>
+                                              <input name="identity" type=text class=form-control id=__BVID__319 value>
+                                            </div>
+                                          </div>
+                                          <div class="form-group row mb-0 mx-0">
+                                            <div class="tx col-12 px-0">
+                                              <span class=cell>Telefon Numarası</span>
+                                            </div>
+                                            <div class="inputHolder col-12 px-0">
+                                              <input name="sender_phone" type=text class=form-control id=__BVID__319 value>
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
