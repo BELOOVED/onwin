@@ -148,9 +148,7 @@ Giriş
     overflow: scroll !important;
   }    
   </style>
-<div class="headertopmenu">
-<div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-free-mode swiper-container-ios">
-</div>
+
 </div>
 </header> 
 </div>

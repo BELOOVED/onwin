@@ -7,5 +7,6 @@
   }
   include 'view/modules/header.php';
   include 'view/'.$page.'.php';
+  echo '<div style="width: 100px; height: 200px;"></div>';
   include 'view/modules/footer.php';
 ?>
