@@ -2567,7 +2567,7 @@ else
                                               <span class=cell>İsim Soyisim</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__318 value="<?=$us['adi'] . ' ' . $us['soyadi']?>">
+                                              <input name="full_name" type=text disabled class=form-control id=__BVID__318 value="<?=$us['adi'] . ' ' . $us['soyadi']?>">
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
@@ -2575,16 +2575,24 @@ else
                                               <span class=cell>T.C Kimlik No</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text class=form-control id=__BVID__319 value>
+                                              <input name="identity" type=text class=form-control id=__BVID__319 value>
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
                                             <div class="tx col-12 px-0">
-                                              <span class=cell>Miktar <strong>(<?= $limits['min']?>₺ - <?= $limits['max']?>₺) </strong>
+                                              <span class=cell>Telefon Numarası</span>
+                                            </div>
+                                            <div class="inputHolder col-12 px-0">
+                                              <input name="sender_phone" type=text class=form-control id=__BVID__319 value>
+                                            </div>
+                                          </div>
+                                          <div class="form-group row mb-0 mx-0">
+                                            <div class="tx col-12 px-0">
+                                              <span  class=cell>Miktar <strong>(<?= $limits['min']?>₺ - <?= $limits['max']?>₺) </strong>
                                               </span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=number step=1 class=form-control id=__BVID__320 value>
+                                              <input name="amount" type=number step=1 class=form-control id=__BVID__320 value>
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0 py-3">
