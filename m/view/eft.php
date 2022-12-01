@@ -2357,7 +2357,7 @@ $query = $db -> query("SELECT * from banks");
                                           <div class="row py-3 text-center depositBankItemInner m-0 position-relative">
                                             <div class="col-12 pb-3 text-center align-middle" style=white-space:nowrap;height:60px>
                                               <picture id=bank_icon_158 alt style=display:inline-block;max-height:60px>
-                                                <img src="/assets/images/banks/<?=$row['name']?>.png" srcset sizes>
+                                                <img style="height: 100px;" src="/assets/images/banks/<?=$row['name']?>.png" srcset sizes>
                                               </picture>
                                             </div>
                                             <div class="col-12 font-weight-bold text-info">Min Yatırım <?=$limits['min']?> ₺</div>
