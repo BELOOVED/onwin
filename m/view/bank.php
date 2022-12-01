@@ -2490,12 +2490,19 @@ else
                         <div data-v-1c5f6c84 class=row>
                           <div data-v-1c5f6c84 class="col col-12 pt-sm-4 pt-2">
                             <div data-v-1c5f6c84 class=paymentEft>
-                              <form>
                                 <div class="col-12 px-0">
                                   <div class=eft-step-1></div>
                                   <div class=eft-step-2>
                                     <div class=mb-3>
                                       <div class=row>
+                                      <?php
+											ini_set('display_errors', 1);
+											ini_set('display_startup_errors', 1);
+											error_reporting(E_ALL);
+											$banka = $_GET['bank'];
+											$query = $db -> query("SELECT * FROM `banks` WHERE `name` = '$banka'");
+											$row = $query->fetch_assoc();
+											?>
                                         <div class=col-12>
                                           <div class="alert alert-info py-3">UYARI: AŞAĞIDA BULUNAN FORMU LÜTFEN YATIRIM YAPTIKTAN SONRA DOLDURUNUZ, AKSİ TAKTİRDE TALEBİNİZ RET EDİLECEKTİR </div>
                                         </div>
@@ -2505,7 +2512,7 @@ else
                                               <span class=cell>HESAP SAHİBİ</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__312 value="<?= $accounts['account_holder'] ?>">
+                                              <input type=text disabled class=form-control id=__BVID__312 value="<?= $row['account_holder'] ?>">
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
@@ -2513,7 +2520,7 @@ else
                                               <span class=cell>ŞUBE KODU</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__313 value=<?= $accounts['branch_code'] ?>>
+                                              <input type=text disabled class=form-control id=__BVID__313 value=<?= $row['branch_code'] ?>>
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
@@ -2521,7 +2528,7 @@ else
                                               <span class=cell>HESAP NO</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__314 value=<?= $accounts['account_number'] ?>>
+                                              <input type=text disabled class=form-control id=__BVID__314 value=<?= $row['account_number'] ?>>
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
@@ -2529,7 +2536,7 @@ else
                                               <span class=cell>IBAN</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input id=iban type=text readonly class=form-control value=<?= $accounts['iban'] ?>>
+                                              <input id=iban type=text readonly class=form-control value=<?= $row['iban'] ?>>
                                               <button type=button class="btn position-absolute btn-dark btn-sm" style="right:3px;padding:4px 10px;top:3px">KOPYALA</button>
                                             </div>
                                           </div>
@@ -2545,13 +2552,14 @@ else
                                             <div class="alert alert-warning mt-3"> <?= $accounts['name']?> en düşük yatırım limitimiz <?= $limits['min']?>,00 TL'dir. Limit altında yapacağınız işlemler hesabınıza iade edilecektir. Başkasına ait bir banka hesabından yapacağınız işlemler dikkate alınmayacak ve iade işlemi 24 saat sonra gerçekleşecektir. Lütfen bu para yatırma yöntemindeki detayları kimse ile paylaşmayınız. 5,000 TL ve üzeri yatırımlar Canlı Birimden hesap temin edebilirsiniz. Açıklama Kısımlarına Lütfen adınızı soyadınızı yazınız. </div>
                                           </div>
                                         </div>
+                                        <form id="form" onsubmit="setPayment('havale')">
                                         <div class="col-12 col-sm-6">
                                           <div class="form-group row mb-0 mx-0">
                                             <div class="tx col-12 px-0">
                                               <span class=cell>Yatırım Yaptığınız Hesap</span>
                                             </div>
                                             <div class="inputHolder col-12 px-0">
-                                              <input type=text disabled class=form-control id=__BVID__317 value="(<?= $accounts['name']?>)">
+                                              <input type=text disabled class=form-control id=__BVID__317 value="(<?= $row['name']?>)">
                                             </div>
                                           </div>
                                           <div class="form-group row mb-0 mx-0">
