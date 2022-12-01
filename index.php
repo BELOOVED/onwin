@@ -6,7 +6,8 @@
     $page = $q[0];
   }
   include 'view/modules/header.php';
+  echo '<br />';
+  echo '<br />';
   include 'view/'.$page.'.php';
-  echo '<div style="width: 100px; height: 200px;"></div>';
   include 'view/modules/footer.php';
 ?>
